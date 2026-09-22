@@ -8,12 +8,12 @@ Todos os exemplos usam dados fictícios. O objetivo é mostrar o raciocínio e a
 
 | Projeto | Pergunta central | O que o relatório apresenta |
 | --- | --- | --- |
-| [01 · Intent do Lead](01-intent-do-lead/index.html) | Em que tentativa o contato perde eficiência? | Retorno marginal, **Sweet Spot**, **Baixa Eficiência**, **Zona de Desperdício**, cobertura acumulada, melhores janelas e cadências. |
-| [02 · Elasticidade e Golden Set](02-elasticidade-e-alocacao/index.html) | Como transformar diferenças de conversão em uma alocação conjunta? | Contraste de C2O, K-Means, Score de afinidade, programação linear inteira, restrições de capacidade e Sankey. |
-| [03 · Simuladores](03-simuladores/index.html) | O que muda quando uma condição operacional é alterada? | Matriz de correlação, principais alavancas, simulador preditivo e Goal Seeking, com a diferença entre associação, previsão e busca de cenário. |
-| [04 · Monitoramento](04-monitoramento/index.html) | Como acompanhar mudanças sem perder o denominador? | Projeto vs. Baseline, Incremento dos Segmentos, Impacto dos Segmentos e Aderência ao Roteiro, com médias diárias e cenários hipotéticos. |
-| [05 · Rede de Ideias](05-rede-de-ideias/index.html) | Como organizar hipóteses e decidir o que testar? | Grafo de relações, catálogo de ideias, problema, fundamentação, desenho de teste, métrica e Score editorial de prioridade. |
-| [06 · Performance](06-performance/index.html) | Como comparar produção e eficiência em contextos diferentes? | Opps/dia, C2O, padronização por contexto, K-Means, perfis Q1 a Q4, dispersão, centróides e tabelas de suporte. |
+| [01 · Intent do Lead](01-intent-do-lead) | Em que tentativa o contato perde eficiência? | Retorno marginal, **Sweet Spot**, **Baixa Eficiência**, **Zona de Desperdício**, cobertura acumulada, melhores janelas e cadências. |
+| [02 · Elasticidade e Golden Set](02-elasticidade-e-alocacao) | Como transformar diferenças de conversão em uma alocação conjunta? | Contraste de C2O, K-Means, Score de afinidade, programação linear inteira, restrições de capacidade e Sankey. |
+| [03 · Simuladores](03-simuladores) | O que muda quando uma condição operacional é alterada? | Matriz de correlação, principais alavancas, simulador preditivo e Goal Seeking, com a diferença entre associação, previsão e busca de cenário. |
+| [04 · Monitoramento](04-monitoramento) | Como acompanhar mudanças sem perder o denominador? | Projeto vs. Baseline, Incremento dos Segmentos, Impacto dos Segmentos e Aderência ao Roteiro, com médias diárias e cenários hipotéticos. |
+| [05 · Rede de Ideias](05-rede-de-ideias) | Como organizar hipóteses e decidir o que testar? | Grafo de relações, catálogo de ideias, problema, fundamentação, desenho de teste, métrica e Score editorial de prioridade. |
+| [06 · Performance](06-performance) | Como comparar produção e eficiência em contextos diferentes? | Opps/dia, C2O, padronização por contexto, K-Means, perfis Q1 a Q4, dispersão, centróides e tabelas de suporte. |
 
 ## Como ler a coleção
 
