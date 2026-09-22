@@ -1,0 +1,2281 @@
+{
+  "synthetic": true,
+  "seed": 271828,
+  "generated_at": "2025-03-03T00:00:00Z",
+  "module": "allocation",
+  "payload": {
+    "profiles": [
+      {
+        "id": "Analista 01",
+        "shift": "Manhã",
+        "eligible": true,
+        "dedicated": true,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1075,
+            "opportunities": 93,
+            "days": 21,
+            "opps_day": 4.428571428571429,
+            "c2o": 8.651162790697674,
+            "label": "Q4"
+          },
+          "Campanha A": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 21,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Sem histórico"
+          },
+          "Campanha B": {
+            "contacts": 357,
+            "opportunities": 31,
+            "days": 21,
+            "opps_day": 1.4761904761904763,
+            "c2o": 8.683473389355742,
+            "label": "Q4"
+          },
+          "Campanha C": {
+            "contacts": 332,
+            "opportunities": 33,
+            "days": 21,
+            "opps_day": 1.5714285714285714,
+            "c2o": 9.939759036144578,
+            "label": "Q3"
+          },
+          "Complementar": {
+            "contacts": 386,
+            "opportunities": 29,
+            "days": 21,
+            "opps_day": 1.380952380952381,
+            "c2o": 7.512953367875648,
+            "label": "Q4"
+          }
+        }
+      },
+      {
+        "id": "Analista 02",
+        "shift": "Manhã",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": true,
+        "scopes": {
+          "Global": {
+            "contacts": 1409,
+            "opportunities": 124,
+            "days": 22,
+            "opps_day": 5.636363636363637,
+            "c2o": 8.800567778566359,
+            "label": "Q4"
+          },
+          "Campanha A": {
+            "contacts": 322,
+            "opportunities": 36,
+            "days": 22,
+            "opps_day": 1.6363636363636365,
+            "c2o": 11.180124223602485,
+            "label": "Q3"
+          },
+          "Campanha B": {
+            "contacts": 323,
+            "opportunities": 24,
+            "days": 22,
+            "opps_day": 1.0909090909090908,
+            "c2o": 7.430340557275541,
+            "label": "Q4"
+          },
+          "Campanha C": {
+            "contacts": 384,
+            "opportunities": 38,
+            "days": 22,
+            "opps_day": 1.7272727272727273,
+            "c2o": 9.895833333333334,
+            "label": "Q3"
+          },
+          "Complementar": {
+            "contacts": 380,
+            "opportunities": 26,
+            "days": 22,
+            "opps_day": 1.1818181818181819,
+            "c2o": 6.842105263157895,
+            "label": "Q4"
+          }
+        }
+      },
+      {
+        "id": "Analista 03",
+        "shift": "Manhã",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": true,
+        "scopes": {
+          "Global": {
+            "contacts": 1444,
+            "opportunities": 167,
+            "days": 22,
+            "opps_day": 7.590909090909091,
+            "c2o": 11.565096952908588,
+            "label": "Q2"
+          },
+          "Campanha A": {
+            "contacts": 372,
+            "opportunities": 45,
+            "days": 22,
+            "opps_day": 2.0454545454545454,
+            "c2o": 12.096774193548388,
+            "label": "Q3"
+          },
+          "Campanha B": {
+            "contacts": 349,
+            "opportunities": 51,
+            "days": 22,
+            "opps_day": 2.3181818181818183,
+            "c2o": 14.613180515759312,
+            "label": "Q2"
+          },
+          "Campanha C": {
+            "contacts": 364,
+            "opportunities": 26,
+            "days": 22,
+            "opps_day": 1.1818181818181819,
+            "c2o": 7.142857142857143,
+            "label": "Q4"
+          },
+          "Complementar": {
+            "contacts": 359,
+            "opportunities": 45,
+            "days": 22,
+            "opps_day": 2.0454545454545454,
+            "c2o": 12.534818941504179,
+            "label": "Q3"
+          }
+        }
+      },
+      {
+        "id": "Analista 04",
+        "shift": "Manhã",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1560,
+            "opportunities": 197,
+            "days": 22,
+            "opps_day": 8.954545454545455,
+            "c2o": 12.628205128205128,
+            "label": "Q2"
+          },
+          "Campanha A": {
+            "contacts": 410,
+            "opportunities": 59,
+            "days": 22,
+            "opps_day": 2.6818181818181817,
+            "c2o": 14.390243902439025,
+            "label": "Q2"
+          },
+          "Campanha B": {
+            "contacts": 385,
+            "opportunities": 37,
+            "days": 22,
+            "opps_day": 1.6818181818181819,
+            "c2o": 9.61038961038961,
+            "label": "Q3"
+          },
+          "Campanha C": {
+            "contacts": 378,
+            "opportunities": 59,
+            "days": 22,
+            "opps_day": 2.6818181818181817,
+            "c2o": 15.60846560846561,
+            "label": "Q2"
+          },
+          "Complementar": {
+            "contacts": 387,
+            "opportunities": 42,
+            "days": 22,
+            "opps_day": 1.9090909090909092,
+            "c2o": 10.852713178294573,
+            "label": "Q3"
+          }
+        }
+      },
+      {
+        "id": "Analista 05",
+        "shift": "Manhã",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1363,
+            "opportunities": 176,
+            "days": 22,
+            "opps_day": 8.0,
+            "c2o": 12.912692589875276,
+            "label": "Q2"
+          },
+          "Campanha A": {
+            "contacts": 326,
+            "opportunities": 45,
+            "days": 22,
+            "opps_day": 2.0454545454545454,
+            "c2o": 13.803680981595091,
+            "label": "Q3"
+          },
+          "Campanha B": {
+            "contacts": 315,
+            "opportunities": 41,
+            "days": 22,
+            "opps_day": 1.8636363636363635,
+            "c2o": 13.015873015873016,
+            "label": "Q2"
+          },
+          "Campanha C": {
+            "contacts": 394,
+            "opportunities": 39,
+            "days": 22,
+            "opps_day": 1.7727272727272727,
+            "c2o": 9.898477157360405,
+            "label": "Q3"
+          },
+          "Complementar": {
+            "contacts": 328,
+            "opportunities": 51,
+            "days": 22,
+            "opps_day": 2.3181818181818183,
+            "c2o": 15.548780487804878,
+            "label": "Q2"
+          }
+        }
+      },
+      {
+        "id": "Analista 06",
+        "shift": "Manhã",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1381,
+            "opportunities": 223,
+            "days": 22,
+            "opps_day": 10.136363636363637,
+            "c2o": 16.14771904417089,
+            "label": "Q1"
+          },
+          "Campanha A": {
+            "contacts": 319,
+            "opportunities": 57,
+            "days": 22,
+            "opps_day": 2.590909090909091,
+            "c2o": 17.86833855799373,
+            "label": "Q2"
+          },
+          "Campanha B": {
+            "contacts": 339,
+            "opportunities": 66,
+            "days": 22,
+            "opps_day": 3.0,
+            "c2o": 19.469026548672566,
+            "label": "Q1"
+          },
+          "Campanha C": {
+            "contacts": 386,
+            "opportunities": 62,
+            "days": 22,
+            "opps_day": 2.8181818181818183,
+            "c2o": 16.06217616580311,
+            "label": "Q2"
+          },
+          "Complementar": {
+            "contacts": 337,
+            "opportunities": 38,
+            "days": 22,
+            "opps_day": 1.7272727272727273,
+            "c2o": 11.275964391691394,
+            "label": "Q3"
+          }
+        }
+      },
+      {
+        "id": "Analista 07",
+        "shift": "Manhã",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1469,
+            "opportunities": 229,
+            "days": 22,
+            "opps_day": 10.409090909090908,
+            "c2o": 15.588835942818244,
+            "label": "Q1"
+          },
+          "Campanha A": {
+            "contacts": 371,
+            "opportunities": 58,
+            "days": 22,
+            "opps_day": 2.6363636363636362,
+            "c2o": 15.633423180592992,
+            "label": "Q2"
+          },
+          "Campanha B": {
+            "contacts": 395,
+            "opportunities": 64,
+            "days": 22,
+            "opps_day": 2.909090909090909,
+            "c2o": 16.20253164556962,
+            "label": "Q1"
+          },
+          "Campanha C": {
+            "contacts": 364,
+            "opportunities": 52,
+            "days": 22,
+            "opps_day": 2.3636363636363638,
+            "c2o": 14.285714285714286,
+            "label": "Q2"
+          },
+          "Complementar": {
+            "contacts": 339,
+            "opportunities": 55,
+            "days": 22,
+            "opps_day": 2.5,
+            "c2o": 16.224188790560472,
+            "label": "Q2"
+          }
+        }
+      },
+      {
+        "id": "Analista 08",
+        "shift": "Manhã",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1118,
+            "opportunities": 198,
+            "days": 22,
+            "opps_day": 9.0,
+            "c2o": 17.71019677996422,
+            "label": "Q1"
+          },
+          "Campanha A": {
+            "contacts": 360,
+            "opportunities": 76,
+            "days": 22,
+            "opps_day": 3.4545454545454546,
+            "c2o": 21.11111111111111,
+            "label": "Q1"
+          },
+          "Campanha B": {
+            "contacts": 370,
+            "opportunities": 51,
+            "days": 22,
+            "opps_day": 2.3181818181818183,
+            "c2o": 13.783783783783784,
+            "label": "Q2"
+          },
+          "Campanha C": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 22,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Sem histórico"
+          },
+          "Complementar": {
+            "contacts": 388,
+            "opportunities": 71,
+            "days": 22,
+            "opps_day": 3.227272727272727,
+            "c2o": 18.298969072164947,
+            "label": "Q1"
+          }
+        }
+      },
+      {
+        "id": "Analista 09",
+        "shift": "Manhã",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1053,
+            "opportunities": 78,
+            "days": 22,
+            "opps_day": 3.5454545454545454,
+            "c2o": 7.407407407407407,
+            "label": "Q4"
+          },
+          "Campanha A": {
+            "contacts": 397,
+            "opportunities": 22,
+            "days": 22,
+            "opps_day": 1.0,
+            "c2o": 5.541561712846348,
+            "label": "Q4"
+          },
+          "Campanha B": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 22,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Sem histórico"
+          },
+          "Campanha C": {
+            "contacts": 331,
+            "opportunities": 28,
+            "days": 22,
+            "opps_day": 1.2727272727272727,
+            "c2o": 8.459214501510575,
+            "label": "Q4"
+          },
+          "Complementar": {
+            "contacts": 325,
+            "opportunities": 28,
+            "days": 22,
+            "opps_day": 1.2727272727272727,
+            "c2o": 8.615384615384615,
+            "label": "Q4"
+          }
+        }
+      },
+      {
+        "id": "Analista 10",
+        "shift": "Manhã",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1103,
+            "opportunities": 99,
+            "days": 22,
+            "opps_day": 4.5,
+            "c2o": 8.975521305530371,
+            "label": "Q4"
+          },
+          "Campanha A": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 22,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Sem histórico"
+          },
+          "Campanha B": {
+            "contacts": 419,
+            "opportunities": 40,
+            "days": 22,
+            "opps_day": 1.8181818181818181,
+            "c2o": 9.54653937947494,
+            "label": "Q3"
+          },
+          "Campanha C": {
+            "contacts": 337,
+            "opportunities": 34,
+            "days": 22,
+            "opps_day": 1.5454545454545454,
+            "c2o": 10.089020771513352,
+            "label": "Q3"
+          },
+          "Complementar": {
+            "contacts": 347,
+            "opportunities": 25,
+            "days": 22,
+            "opps_day": 1.1363636363636365,
+            "c2o": 7.204610951008646,
+            "label": "Q4"
+          }
+        }
+      },
+      {
+        "id": "Analista 11",
+        "shift": "Tarde",
+        "eligible": true,
+        "dedicated": true,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1398,
+            "opportunities": 155,
+            "days": 21,
+            "opps_day": 7.380952380952381,
+            "c2o": 11.087267525035765,
+            "label": "Q2"
+          },
+          "Campanha A": {
+            "contacts": 359,
+            "opportunities": 39,
+            "days": 21,
+            "opps_day": 1.8571428571428572,
+            "c2o": 10.86350974930362,
+            "label": "Q3"
+          },
+          "Campanha B": {
+            "contacts": 356,
+            "opportunities": 40,
+            "days": 21,
+            "opps_day": 1.9047619047619047,
+            "c2o": 11.235955056179776,
+            "label": "Q3"
+          },
+          "Campanha C": {
+            "contacts": 343,
+            "opportunities": 25,
+            "days": 21,
+            "opps_day": 1.1904761904761905,
+            "c2o": 7.288629737609329,
+            "label": "Q4"
+          },
+          "Complementar": {
+            "contacts": 340,
+            "opportunities": 51,
+            "days": 21,
+            "opps_day": 2.4285714285714284,
+            "c2o": 15.0,
+            "label": "Q2"
+          }
+        }
+      },
+      {
+        "id": "Analista 12",
+        "shift": "Tarde",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": true,
+        "scopes": {
+          "Global": {
+            "contacts": 1419,
+            "opportunities": 177,
+            "days": 21,
+            "opps_day": 8.428571428571429,
+            "c2o": 12.473572938689218,
+            "label": "Q2"
+          },
+          "Campanha A": {
+            "contacts": 342,
+            "opportunities": 36,
+            "days": 21,
+            "opps_day": 1.7142857142857142,
+            "c2o": 10.526315789473685,
+            "label": "Q3"
+          },
+          "Campanha B": {
+            "contacts": 338,
+            "opportunities": 37,
+            "days": 21,
+            "opps_day": 1.7619047619047619,
+            "c2o": 10.946745562130177,
+            "label": "Q3"
+          },
+          "Campanha C": {
+            "contacts": 367,
+            "opportunities": 52,
+            "days": 21,
+            "opps_day": 2.4761904761904763,
+            "c2o": 14.168937329700272,
+            "label": "Q2"
+          },
+          "Complementar": {
+            "contacts": 372,
+            "opportunities": 52,
+            "days": 21,
+            "opps_day": 2.4761904761904763,
+            "c2o": 13.978494623655914,
+            "label": "Q2"
+          }
+        }
+      },
+      {
+        "id": "Analista 13",
+        "shift": "Tarde",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": true,
+        "scopes": {
+          "Global": {
+            "contacts": 1535,
+            "opportunities": 192,
+            "days": 22,
+            "opps_day": 8.727272727272727,
+            "c2o": 12.50814332247557,
+            "label": "Q2"
+          },
+          "Campanha A": {
+            "contacts": 421,
+            "opportunities": 48,
+            "days": 22,
+            "opps_day": 2.1818181818181817,
+            "c2o": 11.401425178147269,
+            "label": "Q3"
+          },
+          "Campanha B": {
+            "contacts": 344,
+            "opportunities": 46,
+            "days": 22,
+            "opps_day": 2.090909090909091,
+            "c2o": 13.372093023255815,
+            "label": "Q2"
+          },
+          "Campanha C": {
+            "contacts": 390,
+            "opportunities": 55,
+            "days": 22,
+            "opps_day": 2.5,
+            "c2o": 14.102564102564102,
+            "label": "Q2"
+          },
+          "Complementar": {
+            "contacts": 380,
+            "opportunities": 43,
+            "days": 22,
+            "opps_day": 1.9545454545454546,
+            "c2o": 11.31578947368421,
+            "label": "Q3"
+          }
+        }
+      },
+      {
+        "id": "Analista 14",
+        "shift": "Tarde",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1429,
+            "opportunities": 194,
+            "days": 22,
+            "opps_day": 8.818181818181818,
+            "c2o": 13.57592722183345,
+            "label": "Q2"
+          },
+          "Campanha A": {
+            "contacts": 375,
+            "opportunities": 74,
+            "days": 22,
+            "opps_day": 3.3636363636363638,
+            "c2o": 19.733333333333334,
+            "label": "Q1"
+          },
+          "Campanha B": {
+            "contacts": 350,
+            "opportunities": 36,
+            "days": 22,
+            "opps_day": 1.6363636363636365,
+            "c2o": 10.285714285714286,
+            "label": "Q3"
+          },
+          "Campanha C": {
+            "contacts": 313,
+            "opportunities": 44,
+            "days": 22,
+            "opps_day": 2.0,
+            "c2o": 14.057507987220447,
+            "label": "Q2"
+          },
+          "Complementar": {
+            "contacts": 391,
+            "opportunities": 40,
+            "days": 22,
+            "opps_day": 1.8181818181818181,
+            "c2o": 10.230179028132993,
+            "label": "Q3"
+          }
+        }
+      },
+      {
+        "id": "Analista 15",
+        "shift": "Tarde",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1450,
+            "opportunities": 226,
+            "days": 22,
+            "opps_day": 10.272727272727273,
+            "c2o": 15.586206896551724,
+            "label": "Q1"
+          },
+          "Campanha A": {
+            "contacts": 361,
+            "opportunities": 53,
+            "days": 22,
+            "opps_day": 2.409090909090909,
+            "c2o": 14.681440443213296,
+            "label": "Q2"
+          },
+          "Campanha B": {
+            "contacts": 331,
+            "opportunities": 60,
+            "days": 22,
+            "opps_day": 2.727272727272727,
+            "c2o": 18.12688821752266,
+            "label": "Q1"
+          },
+          "Campanha C": {
+            "contacts": 397,
+            "opportunities": 46,
+            "days": 22,
+            "opps_day": 2.090909090909091,
+            "c2o": 11.586901763224182,
+            "label": "Q3"
+          },
+          "Complementar": {
+            "contacts": 361,
+            "opportunities": 67,
+            "days": 22,
+            "opps_day": 3.0454545454545454,
+            "c2o": 18.559556786703602,
+            "label": "Q1"
+          }
+        }
+      },
+      {
+        "id": "Analista 16",
+        "shift": "Tarde",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1496,
+            "opportunities": 260,
+            "days": 22,
+            "opps_day": 11.818181818181818,
+            "c2o": 17.379679144385026,
+            "label": "Q1"
+          },
+          "Campanha A": {
+            "contacts": 394,
+            "opportunities": 82,
+            "days": 22,
+            "opps_day": 3.727272727272727,
+            "c2o": 20.81218274111675,
+            "label": "Q1"
+          },
+          "Campanha B": {
+            "contacts": 385,
+            "opportunities": 47,
+            "days": 22,
+            "opps_day": 2.1363636363636362,
+            "c2o": 12.207792207792208,
+            "label": "Q2"
+          },
+          "Campanha C": {
+            "contacts": 373,
+            "opportunities": 72,
+            "days": 22,
+            "opps_day": 3.272727272727273,
+            "c2o": 19.302949061662197,
+            "label": "Q1"
+          },
+          "Complementar": {
+            "contacts": 344,
+            "opportunities": 59,
+            "days": 22,
+            "opps_day": 2.6818181818181817,
+            "c2o": 17.151162790697676,
+            "label": "Q1"
+          }
+        }
+      },
+      {
+        "id": "Analista 17",
+        "shift": "Tarde",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1122,
+            "opportunities": 83,
+            "days": 22,
+            "opps_day": 3.772727272727273,
+            "c2o": 7.397504456327986,
+            "label": "Q4"
+          },
+          "Campanha A": {
+            "contacts": 369,
+            "opportunities": 21,
+            "days": 22,
+            "opps_day": 0.9545454545454546,
+            "c2o": 5.691056910569106,
+            "label": "Q4"
+          },
+          "Campanha B": {
+            "contacts": 378,
+            "opportunities": 34,
+            "days": 22,
+            "opps_day": 1.5454545454545454,
+            "c2o": 8.994708994708995,
+            "label": "Q4"
+          },
+          "Campanha C": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 22,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Sem histórico"
+          },
+          "Complementar": {
+            "contacts": 375,
+            "opportunities": 28,
+            "days": 22,
+            "opps_day": 1.2727272727272727,
+            "c2o": 7.466666666666667,
+            "label": "Q4"
+          }
+        }
+      },
+      {
+        "id": "Analista 18",
+        "shift": "Tarde",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1042,
+            "opportunities": 97,
+            "days": 22,
+            "opps_day": 4.409090909090909,
+            "c2o": 9.309021113243762,
+            "label": "Q4"
+          },
+          "Campanha A": {
+            "contacts": 340,
+            "opportunities": 37,
+            "days": 22,
+            "opps_day": 1.6818181818181819,
+            "c2o": 10.882352941176471,
+            "label": "Q3"
+          },
+          "Campanha B": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 22,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Sem histórico"
+          },
+          "Campanha C": {
+            "contacts": 337,
+            "opportunities": 36,
+            "days": 22,
+            "opps_day": 1.6363636363636365,
+            "c2o": 10.682492581602373,
+            "label": "Q3"
+          },
+          "Complementar": {
+            "contacts": 365,
+            "opportunities": 24,
+            "days": 22,
+            "opps_day": 1.0909090909090908,
+            "c2o": 6.575342465753424,
+            "label": "Q4"
+          }
+        }
+      },
+      {
+        "id": "Analista 19",
+        "shift": "Tarde",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1081,
+            "opportunities": 127,
+            "days": 22,
+            "opps_day": 5.7727272727272725,
+            "c2o": 11.748381128584644,
+            "label": "Q3"
+          },
+          "Campanha A": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 22,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Sem histórico"
+          },
+          "Campanha B": {
+            "contacts": 350,
+            "opportunities": 39,
+            "days": 22,
+            "opps_day": 1.7727272727272727,
+            "c2o": 11.142857142857142,
+            "label": "Q3"
+          },
+          "Campanha C": {
+            "contacts": 400,
+            "opportunities": 42,
+            "days": 22,
+            "opps_day": 1.9090909090909092,
+            "c2o": 10.5,
+            "label": "Q3"
+          },
+          "Complementar": {
+            "contacts": 331,
+            "opportunities": 46,
+            "days": 22,
+            "opps_day": 2.090909090909091,
+            "c2o": 13.897280966767372,
+            "label": "Q2"
+          }
+        }
+      },
+      {
+        "id": "Analista 20",
+        "shift": "Tarde",
+        "eligible": true,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 1493,
+            "opportunities": 177,
+            "days": 22,
+            "opps_day": 8.045454545454545,
+            "c2o": 11.855324849296718,
+            "label": "Q2"
+          },
+          "Campanha A": {
+            "contacts": 370,
+            "opportunities": 37,
+            "days": 22,
+            "opps_day": 1.6818181818181819,
+            "c2o": 10.0,
+            "label": "Q3"
+          },
+          "Campanha B": {
+            "contacts": 379,
+            "opportunities": 37,
+            "days": 22,
+            "opps_day": 1.6818181818181819,
+            "c2o": 9.762532981530343,
+            "label": "Q3"
+          },
+          "Campanha C": {
+            "contacts": 392,
+            "opportunities": 55,
+            "days": 22,
+            "opps_day": 2.5,
+            "c2o": 14.03061224489796,
+            "label": "Q2"
+          },
+          "Complementar": {
+            "contacts": 352,
+            "opportunities": 48,
+            "days": 22,
+            "opps_day": 2.1818181818181817,
+            "c2o": 13.636363636363637,
+            "label": "Q2"
+          }
+        }
+      },
+      {
+        "id": "Analista 21",
+        "shift": "Tarde",
+        "eligible": false,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 0,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Fora do pool"
+          },
+          "Campanha A": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 0,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Fora do pool"
+          },
+          "Campanha B": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 0,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Fora do pool"
+          },
+          "Campanha C": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 0,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Fora do pool"
+          },
+          "Complementar": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 0,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Fora do pool"
+          }
+        }
+      },
+      {
+        "id": "Analista 22",
+        "shift": "Tarde",
+        "eligible": false,
+        "dedicated": false,
+        "multichannel": false,
+        "scopes": {
+          "Global": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 0,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Fora do pool"
+          },
+          "Campanha A": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 0,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Fora do pool"
+          },
+          "Campanha B": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 0,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Fora do pool"
+          },
+          "Campanha C": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 0,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Fora do pool"
+          },
+          "Complementar": {
+            "contacts": 0,
+            "opportunities": 0,
+            "days": 0,
+            "opps_day": null,
+            "c2o": null,
+            "label": "Fora do pool"
+          }
+        }
+      }
+    ],
+    "models": {
+      "Global": {
+        "inertia": 2.8241372819898247,
+        "iterations": 2,
+        "means": [
+          7.4823593073593075,
+          12.165421715828401
+        ],
+        "scales": [
+          2.3953957113257554,
+          3.077004499295261
+        ],
+        "centers": [
+          {
+            "label": "Q1",
+            "z_production": 1.1876590604476263,
+            "z_efficiency": 1.4030222727130832,
+            "production": 10.327272727272728,
+            "efficiency": 16.48252756157802,
+            "size": 5
+          },
+          {
+            "label": "Q2",
+            "z_production": 0.3176413065194596,
+            "z_efficiency": 0.05211467849601452,
+            "production": 8.243235930735931,
+            "efficiency": 12.325778816039964,
+            "size": 8
+          },
+          {
+            "label": "Q3",
+            "z_production": -0.7137159119675565,
+            "z_efficiency": -0.1355346043007978,
+            "production": 5.7727272727272725,
+            "efficiency": 11.748381128584644,
+            "size": 1
+          },
+          {
+            "label": "Q4",
+            "z_production": -1.2942849737377087,
+            "z_efficiency": -1.2160823645387893,
+            "production": 4.382034632034632,
+            "efficiency": 8.423530808628927,
+            "size": 6
+          }
+        ]
+      },
+      "Campanha A": {
+        "inertia": 1.596217453320016,
+        "iterations": 2,
+        "means": [
+          2.2154316271963332,
+          13.306874997062511
+        ],
+        "scales": [
+          0.7716664476678956,
+          4.514675568073773
+        ],
+        "centers": [
+          {
+            "label": "Q1",
+            "z_production": 1.6843027086160758,
+            "z_efficiency": 1.6048404709361002,
+            "production": 3.515151515151515,
+            "efficiency": 20.55220906185373,
+            "size": 3
+          },
+          {
+            "label": "Q2",
+            "z_production": 0.4718539058547042,
+            "z_efficiency": 0.5175314347104087,
+            "production": 2.5795454545454546,
+            "efficiency": 15.643361521059761,
+            "size": 4
+          },
+          {
+            "label": "Q3",
+            "z_production": -0.46640896175357516,
+            "z_efficiency": -0.4347160909712936,
+            "production": 1.8555194805194806,
+            "efficiency": 11.344272882105876,
+            "size": 8
+          },
+          {
+            "label": "Q4",
+            "z_production": -1.6045260276192235,
+            "z_efficiency": -1.7034592119397924,
+            "production": 0.9772727272727273,
+            "efficiency": 5.6163093117077265,
+            "size": 2
+          }
+        ]
+      },
+      "Campanha B": {
+        "inertia": 2.7221824007567874,
+        "iterations": 5,
+        "means": [
+          1.9852092352092352,
+          12.13502366210253
+        ],
+        "scales": [
+          0.4939626266436779,
+          3.220093947532618
+        ],
+        "centers": [
+          {
+            "label": "Q1",
+            "z_production": 1.8090005101200306,
+            "z_efficiency": 1.8005039303055996,
+            "production": 2.878787878787879,
+            "efficiency": 17.93281547058828,
+            "size": 3
+          },
+          {
+            "label": "Q2",
+            "z_production": 0.32440776204897764,
+            "z_efficiency": 0.39238633026793035,
+            "production": 2.1454545454545455,
+            "efficiency": 13.398544509292828,
+            "size": 5
+          },
+          {
+            "label": "Q3",
+            "z_production": -0.4739771219490916,
+            "z_efficiency": -0.5507572946059953,
+            "production": 1.751082251082251,
+            "efficiency": 10.361533431182325,
+            "size": 7
+          },
+          {
+            "label": "Q4",
+            "z_production": -1.2437334956537796,
+            "z_efficiency": -1.169380793338161,
+            "production": 1.370851370851371,
+            "efficiency": 8.369507647113426,
+            "size": 3
+          }
+        ]
+      },
+      "Campanha C": {
+        "inertia": 2.61121614863258,
+        "iterations": 2,
+        "means": [
+          2.0283790283790286,
+          12.061228489510182
+        ],
+        "scales": [
+          0.5829703009938876,
+          3.203444308980596
+        ],
+        "centers": [
+          {
+            "label": "Q1",
+            "z_production": 2.13449680408555,
+            "z_efficiency": 2.2606044849446705,
+            "production": 3.272727272727273,
+            "efficiency": 19.302949061662197,
+            "size": 1
+          },
+          {
+            "label": "Q2",
+            "z_production": 0.7697460588149915,
+            "z_efficiency": 0.7976850884106523,
+            "production": 2.477118119975263,
+            "efficiency": 14.61656824633797,
+            "size": 7
+          },
+          {
+            "label": "Q3",
+            "z_production": -0.47672275245038465,
+            "z_efficiency": -0.5278298535562158,
+            "production": 1.7504638218923934,
+            "efficiency": 10.370354949025462,
+            "size": 7
+          },
+          {
+            "label": "Q4",
+            "z_production": -1.3952199828792682,
+            "z_efficiency": -1.3831970429752434,
+            "production": 1.215007215007215,
+            "efficiency": 7.63023379399235,
+            "size": 3
+          }
+        ]
+      },
+      "Complementar": {
+        "inertia": 1.877813190821339,
+        "iterations": 7,
+        "means": [
+          1.987012987012987,
+          12.136066274893636
+        ],
+        "scales": [
+          0.6191248097668004,
+          3.8431250935831556
+        ],
+        "centers": [
+          {
+            "label": "Q1",
+            "z_production": 1.6116871462659403,
+            "z_efficiency": 1.5266646627657636,
+            "production": 2.9848484848484844,
+            "efficiency": 18.00322954985541,
+            "size": 3
+          },
+          {
+            "label": "Q2",
+            "z_production": 0.5582054541297077,
+            "z_efficiency": 0.6708390731984618,
+            "production": 2.332611832611833,
+            "efficiency": 14.714184750858712,
+            "size": 6
+          },
+          {
+            "label": "Q3",
+            "z_production": -0.15522539977051555,
+            "z_efficiency": -0.2326682713828812,
+            "production": 1.8909090909090909,
+            "efficiency": 11.24189300266147,
+            "size": 5
+          },
+          {
+            "label": "Q4",
+            "z_production": -1.2346945274539145,
+            "z_efficiency": -1.2402811784289418,
+            "production": 1.2225829725829724,
+            "efficiency": 7.369510554974483,
+            "size": 6
+          }
+        ]
+      }
+    },
+    "groups": [
+      {
+        "campaign": "Campanha A",
+        "contacts": 6208,
+        "opportunities": 825,
+        "c2o": 13.28930412371134
+      },
+      {
+        "campaign": "Campanha B",
+        "contacts": 6463,
+        "opportunities": 781,
+        "c2o": 12.084171437412966
+      },
+      {
+        "campaign": "Campanha C",
+        "contacts": 6582,
+        "opportunities": 798,
+        "c2o": 12.123974475843209
+      },
+      {
+        "campaign": "Complementar",
+        "contacts": 7187,
+        "opportunities": 868,
+        "c2o": 12.077361903436762
+      }
+    ],
+    "calendar": {
+      "start": "2025-02-03",
+      "end": "2025-03-02",
+      "operating_days": 24
+    },
+    "parameters": {
+      "window_days": 28,
+      "specific_weight": 0.55,
+      "global_weight": 0.45,
+      "production_weight": 2,
+      "priority_multiplier": 1.08,
+      "cluster_points": {
+        "Q1": 100,
+        "Q2": 65,
+        "Q3": 35,
+        "Q4": 10,
+        "Sem histórico": 25
+      },
+      "target_steps": [
+        2,
+        4,
+        7
+      ],
+      "stretch": 1.08,
+      "minimum_regular": 2
+    },
+    "sensitivity": [
+      {
+        "scope": "Global",
+        "top": {
+          "contacts": 18555,
+          "opportunities": 2571,
+          "c2o": 13.856103476151981
+        },
+        "bottom": {
+          "contacts": 7885,
+          "opportunities": 701,
+          "c2o": 8.890298034242232
+        },
+        "gap_pp": 4.965805441909749,
+        "delta_baseline_pp": 0.0
+      },
+      {
+        "scope": "Campanha A",
+        "top": {
+          "contacts": 4780,
+          "opportunities": 709,
+          "c2o": 14.832635983263598
+        },
+        "bottom": {
+          "contacts": 1428,
+          "opportunities": 116,
+          "c2o": 8.123249299719888
+        },
+        "gap_pp": 6.709386683543711,
+        "delta_baseline_pp": 1.7435812416339616
+      },
+      {
+        "scope": "Campanha B",
+        "top": {
+          "contacts": 4636,
+          "opportunities": 613,
+          "c2o": 13.22260569456428
+        },
+        "bottom": {
+          "contacts": 1827,
+          "opportunities": 168,
+          "c2o": 9.195402298850574
+        },
+        "gap_pp": 4.0272033957137054,
+        "delta_baseline_pp": -0.9386020461960438
+      },
+      {
+        "scope": "Campanha C",
+        "top": {
+          "contacts": 4461,
+          "opportunities": 587,
+          "c2o": 13.158484644698499
+        },
+        "bottom": {
+          "contacts": 2121,
+          "opportunities": 211,
+          "c2o": 9.948137670909949
+        },
+        "gap_pp": 3.2103469737885497,
+        "delta_baseline_pp": -1.7554584681211995
+      },
+      {
+        "scope": "Complementar",
+        "top": {
+          "contacts": 4678,
+          "opportunities": 662,
+          "c2o": 14.151346729371527
+        },
+        "bottom": {
+          "contacts": 2509,
+          "opportunities": 206,
+          "c2o": 8.210442407333598
+        },
+        "gap_pp": 5.9409043220379285,
+        "delta_baseline_pp": 0.9750988801281792
+      }
+    ],
+    "routes": [
+      {
+        "id": "Campanha A · Manhã",
+        "campaign": "Campanha A",
+        "shift": "Manhã",
+        "planned": 4,
+        "capacity": 3,
+        "dedicated": false,
+        "priority": true
+      },
+      {
+        "id": "Campanha B · Manhã",
+        "campaign": "Campanha B",
+        "shift": "Manhã",
+        "planned": 4,
+        "capacity": 3,
+        "dedicated": false,
+        "priority": false
+      },
+      {
+        "id": "Campanha C · Manhã",
+        "campaign": "Campanha C",
+        "shift": "Manhã",
+        "planned": 3,
+        "capacity": 3,
+        "dedicated": false,
+        "priority": false
+      },
+      {
+        "id": "Dedicada · Manhã",
+        "campaign": "Complementar",
+        "shift": "Manhã",
+        "planned": 1,
+        "capacity": 1,
+        "dedicated": true,
+        "priority": false
+      },
+      {
+        "id": "Campanha A · Tarde",
+        "campaign": "Campanha A",
+        "shift": "Tarde",
+        "planned": 4,
+        "capacity": 3,
+        "dedicated": false,
+        "priority": true
+      },
+      {
+        "id": "Campanha B · Tarde",
+        "campaign": "Campanha B",
+        "shift": "Tarde",
+        "planned": 4,
+        "capacity": 3,
+        "dedicated": false,
+        "priority": false
+      },
+      {
+        "id": "Campanha C · Tarde",
+        "campaign": "Campanha C",
+        "shift": "Tarde",
+        "planned": 3,
+        "capacity": 3,
+        "dedicated": false,
+        "priority": false
+      },
+      {
+        "id": "Dedicada · Tarde",
+        "campaign": "Complementar",
+        "shift": "Tarde",
+        "planned": 1,
+        "capacity": 1,
+        "dedicated": true,
+        "priority": false
+      }
+    ],
+    "solutions": [
+      {
+        "shift": "Manhã",
+        "optimal": {
+          "status": "Ótima",
+          "objective": 606.28736,
+          "assignments": [
+            {
+              "person": "Analista 01",
+              "route": "Dedicada · Manhã"
+            },
+            {
+              "person": "Analista 02",
+              "route": "Campanha A · Manhã"
+            },
+            {
+              "person": "Analista 03",
+              "route": "Campanha B · Manhã"
+            },
+            {
+              "person": "Analista 04",
+              "route": "Campanha A · Manhã"
+            },
+            {
+              "person": "Analista 05",
+              "route": "Campanha C · Manhã"
+            },
+            {
+              "person": "Analista 06",
+              "route": "Campanha B · Manhã"
+            },
+            {
+              "person": "Analista 07",
+              "route": "Campanha B · Manhã"
+            },
+            {
+              "person": "Analista 08",
+              "route": "Campanha A · Manhã"
+            },
+            {
+              "person": "Analista 09",
+              "route": "Campanha C · Manhã"
+            },
+            {
+              "person": "Analista 10",
+              "route": "Campanha C · Manhã"
+            }
+          ],
+          "states": 42
+        },
+        "reference": {
+          "status": "Referência viável",
+          "objective": 554.328269,
+          "assignments": [
+            {
+              "person": "Analista 01",
+              "route": "Dedicada · Manhã"
+            },
+            {
+              "person": "Analista 02",
+              "route": "Campanha A · Manhã"
+            },
+            {
+              "person": "Analista 03",
+              "route": "Campanha B · Manhã"
+            },
+            {
+              "person": "Analista 04",
+              "route": "Campanha A · Manhã"
+            },
+            {
+              "person": "Analista 05",
+              "route": "Campanha A · Manhã"
+            },
+            {
+              "person": "Analista 06",
+              "route": "Campanha B · Manhã"
+            },
+            {
+              "person": "Analista 07",
+              "route": "Campanha B · Manhã"
+            },
+            {
+              "person": "Analista 08",
+              "route": "Campanha C · Manhã"
+            },
+            {
+              "person": "Analista 09",
+              "route": "Campanha C · Manhã"
+            },
+            {
+              "person": "Analista 10",
+              "route": "Campanha C · Manhã"
+            }
+          ],
+          "states": 12
+        },
+        "quota": [
+          1,
+          1
+        ]
+      },
+      {
+        "shift": "Tarde",
+        "optimal": {
+          "status": "Ótima",
+          "objective": 668.700909,
+          "assignments": [
+            {
+              "person": "Analista 11",
+              "route": "Dedicada · Tarde"
+            },
+            {
+              "person": "Analista 12",
+              "route": "Campanha A · Tarde"
+            },
+            {
+              "person": "Analista 13",
+              "route": "Campanha B · Tarde"
+            },
+            {
+              "person": "Analista 14",
+              "route": "Campanha A · Tarde"
+            },
+            {
+              "person": "Analista 15",
+              "route": "Campanha B · Tarde"
+            },
+            {
+              "person": "Analista 16",
+              "route": "Campanha A · Tarde"
+            },
+            {
+              "person": "Analista 17",
+              "route": "Campanha C · Tarde"
+            },
+            {
+              "person": "Analista 18",
+              "route": "Campanha C · Tarde"
+            },
+            {
+              "person": "Analista 19",
+              "route": "Campanha B · Tarde"
+            },
+            {
+              "person": "Analista 20",
+              "route": "Campanha C · Tarde"
+            }
+          ],
+          "states": 42
+        },
+        "reference": {
+          "status": "Referência viável",
+          "objective": 619.745454,
+          "assignments": [
+            {
+              "person": "Analista 11",
+              "route": "Dedicada · Tarde"
+            },
+            {
+              "person": "Analista 12",
+              "route": "Campanha A · Tarde"
+            },
+            {
+              "person": "Analista 13",
+              "route": "Campanha B · Tarde"
+            },
+            {
+              "person": "Analista 14",
+              "route": "Campanha A · Tarde"
+            },
+            {
+              "person": "Analista 15",
+              "route": "Campanha A · Tarde"
+            },
+            {
+              "person": "Analista 16",
+              "route": "Campanha B · Tarde"
+            },
+            {
+              "person": "Analista 17",
+              "route": "Campanha B · Tarde"
+            },
+            {
+              "person": "Analista 18",
+              "route": "Campanha C · Tarde"
+            },
+            {
+              "person": "Analista 19",
+              "route": "Campanha C · Tarde"
+            },
+            {
+              "person": "Analista 20",
+              "route": "Campanha C · Tarde"
+            }
+          ],
+          "states": 12
+        },
+        "quota": [
+          1,
+          1
+        ]
+      }
+    ],
+    "assignments": [
+      {
+        "person": "Analista 01",
+        "route": "Dedicada · Manhã",
+        "shift": "Manhã",
+        "global_label": "Q4",
+        "specific_label": "Q4",
+        "historical": 1.380952380952381,
+        "global_historical": 4.428571428571429,
+        "target": 2.0,
+        "global_target": 7.0,
+        "components": {
+          "specific": 5.5,
+          "global_component": 4.5,
+          "production": 2.761904761904762,
+          "multiplier": 1,
+          "total": 12.761905,
+          "objective_units": 12761905
+        },
+        "dedicated": true,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 02",
+        "route": "Campanha A · Manhã",
+        "shift": "Manhã",
+        "global_label": "Q4",
+        "specific_label": "Q3",
+        "historical": 1.6363636363636365,
+        "global_historical": 5.636363636363637,
+        "target": 2.0,
+        "global_target": 7.0,
+        "components": {
+          "specific": 19.25,
+          "global_component": 4.5,
+          "production": 3.272727272727273,
+          "multiplier": 1.08,
+          "total": 29.184545,
+          "objective_units": 29184545
+        },
+        "dedicated": false,
+        "multichannel": true
+      },
+      {
+        "person": "Analista 03",
+        "route": "Campanha B · Manhã",
+        "shift": "Manhã",
+        "global_label": "Q2",
+        "specific_label": "Q2",
+        "historical": 2.3181818181818183,
+        "global_historical": 7.590909090909091,
+        "target": 4.0,
+        "global_target": 8.2,
+        "components": {
+          "specific": 35.75,
+          "global_component": 29.25,
+          "production": 4.636363636363637,
+          "multiplier": 1,
+          "total": 69.636364,
+          "objective_units": 69636364
+        },
+        "dedicated": false,
+        "multichannel": true
+      },
+      {
+        "person": "Analista 04",
+        "route": "Campanha A · Manhã",
+        "shift": "Manhã",
+        "global_label": "Q2",
+        "specific_label": "Q2",
+        "historical": 2.6818181818181817,
+        "global_historical": 8.954545454545455,
+        "target": 4.0,
+        "global_target": 9.68,
+        "components": {
+          "specific": 35.75,
+          "global_component": 29.25,
+          "production": 5.363636363636363,
+          "multiplier": 1.08,
+          "total": 75.992727,
+          "objective_units": 75992727
+        },
+        "dedicated": false,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 05",
+        "route": "Campanha C · Manhã",
+        "shift": "Manhã",
+        "global_label": "Q2",
+        "specific_label": "Q3",
+        "historical": 1.7727272727272727,
+        "global_historical": 8.0,
+        "target": 2.0,
+        "global_target": 8.64,
+        "components": {
+          "specific": 19.25,
+          "global_component": 29.25,
+          "production": 3.5454545454545454,
+          "multiplier": 1,
+          "total": 52.045455,
+          "objective_units": 52045455
+        },
+        "dedicated": false,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 06",
+        "route": "Campanha B · Manhã",
+        "shift": "Manhã",
+        "global_label": "Q1",
+        "specific_label": "Q1",
+        "historical": 3.0,
+        "global_historical": 10.136363636363637,
+        "target": 4.0,
+        "global_target": 10.95,
+        "components": {
+          "specific": 55.00000000000001,
+          "global_component": 45.0,
+          "production": 6.0,
+          "multiplier": 1,
+          "total": 106.0,
+          "objective_units": 106000000
+        },
+        "dedicated": false,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 07",
+        "route": "Campanha B · Manhã",
+        "shift": "Manhã",
+        "global_label": "Q1",
+        "specific_label": "Q1",
+        "historical": 2.909090909090909,
+        "global_historical": 10.409090909090908,
+        "target": 4.0,
+        "global_target": 11.25,
+        "components": {
+          "specific": 55.00000000000001,
+          "global_component": 45.0,
+          "production": 5.818181818181818,
+          "multiplier": 1,
+          "total": 105.818182,
+          "objective_units": 105818182
+        },
+        "dedicated": false,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 08",
+        "route": "Campanha A · Manhã",
+        "shift": "Manhã",
+        "global_label": "Q1",
+        "specific_label": "Q1",
+        "historical": 3.4545454545454546,
+        "global_historical": 9.0,
+        "target": 4.0,
+        "global_target": 9.73,
+        "components": {
+          "specific": 55.00000000000001,
+          "global_component": 45.0,
+          "production": 6.909090909090909,
+          "multiplier": 1.08,
+          "total": 115.461818,
+          "objective_units": 115461818
+        },
+        "dedicated": false,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 09",
+        "route": "Campanha C · Manhã",
+        "shift": "Manhã",
+        "global_label": "Q4",
+        "specific_label": "Q4",
+        "historical": 1.2727272727272727,
+        "global_historical": 3.5454545454545454,
+        "target": 2.0,
+        "global_target": 4.0,
+        "components": {
+          "specific": 5.5,
+          "global_component": 4.5,
+          "production": 2.5454545454545454,
+          "multiplier": 1,
+          "total": 12.545455,
+          "objective_units": 12545455
+        },
+        "dedicated": false,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 10",
+        "route": "Campanha C · Manhã",
+        "shift": "Manhã",
+        "global_label": "Q4",
+        "specific_label": "Q3",
+        "historical": 1.5454545454545454,
+        "global_historical": 4.5,
+        "target": 2.0,
+        "global_target": 7.0,
+        "components": {
+          "specific": 19.25,
+          "global_component": 4.5,
+          "production": 3.090909090909091,
+          "multiplier": 1,
+          "total": 26.840909,
+          "objective_units": 26840909
+        },
+        "dedicated": false,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 11",
+        "route": "Dedicada · Tarde",
+        "shift": "Tarde",
+        "global_label": "Q2",
+        "specific_label": "Q2",
+        "historical": 2.4285714285714284,
+        "global_historical": 7.380952380952381,
+        "target": 4.0,
+        "global_target": 7.98,
+        "components": {
+          "specific": 35.75,
+          "global_component": 29.25,
+          "production": 4.857142857142857,
+          "multiplier": 1,
+          "total": 69.857143,
+          "objective_units": 69857143
+        },
+        "dedicated": true,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 12",
+        "route": "Campanha A · Tarde",
+        "shift": "Tarde",
+        "global_label": "Q2",
+        "specific_label": "Q3",
+        "historical": 1.7142857142857142,
+        "global_historical": 8.428571428571429,
+        "target": 2.0,
+        "global_target": 9.11,
+        "components": {
+          "specific": 19.25,
+          "global_component": 29.25,
+          "production": 3.4285714285714284,
+          "multiplier": 1.08,
+          "total": 56.082857,
+          "objective_units": 56082857
+        },
+        "dedicated": false,
+        "multichannel": true
+      },
+      {
+        "person": "Analista 13",
+        "route": "Campanha B · Tarde",
+        "shift": "Tarde",
+        "global_label": "Q2",
+        "specific_label": "Q2",
+        "historical": 2.090909090909091,
+        "global_historical": 8.727272727272727,
+        "target": 4.0,
+        "global_target": 9.43,
+        "components": {
+          "specific": 35.75,
+          "global_component": 29.25,
+          "production": 4.181818181818182,
+          "multiplier": 1,
+          "total": 69.181818,
+          "objective_units": 69181818
+        },
+        "dedicated": false,
+        "multichannel": true
+      },
+      {
+        "person": "Analista 14",
+        "route": "Campanha A · Tarde",
+        "shift": "Tarde",
+        "global_label": "Q2",
+        "specific_label": "Q1",
+        "historical": 3.3636363636363638,
+        "global_historical": 8.818181818181818,
+        "target": 4.0,
+        "global_target": 9.53,
+        "components": {
+          "specific": 55.00000000000001,
+          "global_component": 29.25,
+          "production": 6.7272727272727275,
+          "multiplier": 1.08,
+          "total": 98.255455,
+          "objective_units": 98255455
+        },
+        "dedicated": false,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 15",
+        "route": "Campanha B · Tarde",
+        "shift": "Tarde",
+        "global_label": "Q1",
+        "specific_label": "Q1",
+        "historical": 2.727272727272727,
+        "global_historical": 10.272727272727273,
+        "target": 4.0,
+        "global_target": 11.1,
+        "components": {
+          "specific": 55.00000000000001,
+          "global_component": 45.0,
+          "production": 5.454545454545454,
+          "multiplier": 1,
+          "total": 105.454545,
+          "objective_units": 105454545
+        },
+        "dedicated": false,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 16",
+        "route": "Campanha A · Tarde",
+        "shift": "Tarde",
+        "global_label": "Q1",
+        "specific_label": "Q1",
+        "historical": 3.727272727272727,
+        "global_historical": 11.818181818181818,
+        "target": 4.0,
+        "global_target": 12.77,
+        "components": {
+          "specific": 55.00000000000001,
+          "global_component": 45.0,
+          "production": 7.454545454545454,
+          "multiplier": 1.08,
+          "total": 116.050909,
+          "objective_units": 116050909
+        },
+        "dedicated": false,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 17",
+        "route": "Campanha C · Tarde",
+        "shift": "Tarde",
+        "global_label": "Q4",
+        "specific_label": "Sem histórico",
+        "historical": null,
+        "global_historical": 3.772727272727273,
+        "target": null,
+        "global_target": 4.0,
+        "components": {
+          "specific": 13.750000000000002,
+          "global_component": 4.5,
+          "production": 0,
+          "multiplier": 1,
+          "total": 18.25,
+          "objective_units": 18250000
+        },
+        "dedicated": false,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 18",
+        "route": "Campanha C · Tarde",
+        "shift": "Tarde",
+        "global_label": "Q4",
+        "specific_label": "Q3",
+        "historical": 1.6363636363636365,
+        "global_historical": 4.409090909090909,
+        "target": 2.0,
+        "global_target": 7.0,
+        "components": {
+          "specific": 19.25,
+          "global_component": 4.5,
+          "production": 3.272727272727273,
+          "multiplier": 1,
+          "total": 27.022727,
+          "objective_units": 27022727
+        },
+        "dedicated": false,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 19",
+        "route": "Campanha B · Tarde",
+        "shift": "Tarde",
+        "global_label": "Q3",
+        "specific_label": "Q3",
+        "historical": 1.7727272727272727,
+        "global_historical": 5.7727272727272725,
+        "target": 2.0,
+        "global_target": 7.0,
+        "components": {
+          "specific": 19.25,
+          "global_component": 15.75,
+          "production": 3.5454545454545454,
+          "multiplier": 1,
+          "total": 38.545455,
+          "objective_units": 38545455
+        },
+        "dedicated": false,
+        "multichannel": false
+      },
+      {
+        "person": "Analista 20",
+        "route": "Campanha C · Tarde",
+        "shift": "Tarde",
+        "global_label": "Q2",
+        "specific_label": "Q2",
+        "historical": 2.5,
+        "global_historical": 8.045454545454545,
+        "target": 4.0,
+        "global_target": 8.69,
+        "components": {
+          "specific": 35.75,
+          "global_component": 29.25,
+          "production": 5.0,
+          "multiplier": 1,
+          "total": 70.0,
+          "objective_units": 70000000
+        },
+        "dedicated": false,
+        "multichannel": false
+      }
+    ],
+    "flows": [
+      {
+        "source": "global:Q1",
+        "target": "specific:Q1",
+        "value": 5
+      },
+      {
+        "source": "global:Q2",
+        "target": "specific:Q1",
+        "value": 1
+      },
+      {
+        "source": "global:Q2",
+        "target": "specific:Q2",
+        "value": 5
+      },
+      {
+        "source": "global:Q2",
+        "target": "specific:Q3",
+        "value": 2
+      },
+      {
+        "source": "global:Q3",
+        "target": "specific:Q3",
+        "value": 1
+      },
+      {
+        "source": "global:Q4",
+        "target": "specific:Q3",
+        "value": 3
+      },
+      {
+        "source": "global:Q4",
+        "target": "specific:Q4",
+        "value": 2
+      },
+      {
+        "source": "global:Q4",
+        "target": "specific:Sem histórico",
+        "value": 1
+      },
+      {
+        "source": "specific:Q1",
+        "target": "route:Campanha A · Manhã",
+        "value": 1
+      },
+      {
+        "source": "specific:Q1",
+        "target": "route:Campanha A · Tarde",
+        "value": 2
+      },
+      {
+        "source": "specific:Q1",
+        "target": "route:Campanha B · Manhã",
+        "value": 2
+      },
+      {
+        "source": "specific:Q1",
+        "target": "route:Campanha B · Tarde",
+        "value": 1
+      },
+      {
+        "source": "specific:Q2",
+        "target": "route:Campanha A · Manhã",
+        "value": 1
+      },
+      {
+        "source": "specific:Q2",
+        "target": "route:Campanha B · Manhã",
+        "value": 1
+      },
+      {
+        "source": "specific:Q2",
+        "target": "route:Campanha B · Tarde",
+        "value": 1
+      },
+      {
+        "source": "specific:Q2",
+        "target": "route:Campanha C · Tarde",
+        "value": 1
+      },
+      {
+        "source": "specific:Q2",
+        "target": "route:Dedicada · Tarde",
+        "value": 1
+      },
+      {
+        "source": "specific:Q3",
+        "target": "route:Campanha A · Manhã",
+        "value": 1
+      },
+      {
+        "source": "specific:Q3",
+        "target": "route:Campanha A · Tarde",
+        "value": 1
+      },
+      {
+        "source": "specific:Q3",
+        "target": "route:Campanha B · Tarde",
+        "value": 1
+      },
+      {
+        "source": "specific:Q3",
+        "target": "route:Campanha C · Manhã",
+        "value": 2
+      },
+      {
+        "source": "specific:Q3",
+        "target": "route:Campanha C · Tarde",
+        "value": 1
+      },
+      {
+        "source": "specific:Q4",
+        "target": "route:Campanha C · Manhã",
+        "value": 1
+      },
+      {
+        "source": "specific:Q4",
+        "target": "route:Dedicada · Manhã",
+        "value": 1
+      },
+      {
+        "source": "specific:Sem histórico",
+        "target": "route:Campanha C · Tarde",
+        "value": 1
+      }
+    ],
+    "status": "Ótima",
+    "objective": 1274.988269,
+    "reference_objective": 1174.073723,
+    "engine": "Programação dinâmica exata com memoização",
+    "precision": "Score arredondado a 0,000001 antes da otimização; ótimo para o modelo discretizado."
+  }
+}
