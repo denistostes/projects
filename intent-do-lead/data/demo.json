@@ -1,0 +1,1416 @@
+{
+  "synthetic": true,
+  "seed": 271828,
+  "generated_at": "2025-03-03T00:00:00Z",
+  "module": "intent",
+  "payload": {
+    "attempts": [
+      {
+        "attempt": 1,
+        "exposed": 12000,
+        "connected": 2413,
+        "rate": 20.108333333333334,
+        "relative": 100,
+        "gain": 20.108333333333334,
+        "cumulative": 20.108333333333334,
+        "stage": "Sweet Spot",
+        "protected_stage": "Sweet Spot",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 2,
+        "exposed": 9587,
+        "connected": 1728,
+        "rate": 18.02440805257119,
+        "relative": 89.63650917151027,
+        "gain": 14.4,
+        "cumulative": 34.50833333333333,
+        "stage": "Sweet Spot",
+        "protected_stage": "Sweet Spot",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 3,
+        "exposed": 7859,
+        "connected": 1256,
+        "rate": 15.981677058149893,
+        "relative": 79.47788010683743,
+        "gain": 10.466666666666667,
+        "cumulative": 44.975,
+        "stage": "Sweet Spot",
+        "protected_stage": "Sweet Spot",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 4,
+        "exposed": 6603,
+        "connected": 917,
+        "rate": 13.887626836286538,
+        "relative": 69.0640373126558,
+        "gain": 7.641666666666667,
+        "cumulative": 52.61666666666667,
+        "stage": "Sweet Spot",
+        "protected_stage": "Sweet Spot",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 5,
+        "exposed": 5686,
+        "connected": 718,
+        "rate": 12.627506155469575,
+        "relative": 62.79737831149395,
+        "gain": 5.983333333333333,
+        "cumulative": 58.6,
+        "stage": "Sweet Spot",
+        "protected_stage": "Sweet Spot",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 6,
+        "exposed": 4968,
+        "connected": 550,
+        "rate": 11.07085346215781,
+        "relative": 55.05604705590291,
+        "gain": 4.583333333333333,
+        "cumulative": 63.18333333333333,
+        "stage": "Sweet Spot",
+        "protected_stage": "Sweet Spot",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 7,
+        "exposed": 4418,
+        "connected": 439,
+        "rate": 9.93662290629244,
+        "relative": 49.41544752404032,
+        "gain": 3.658333333333333,
+        "cumulative": 66.84166666666667,
+        "stage": "Baixa Eficiência",
+        "protected_stage": "Baixa Eficiência",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 8,
+        "exposed": 3979,
+        "connected": 332,
+        "rate": 8.343804976124654,
+        "relative": 41.49426428242679,
+        "gain": 2.7666666666666666,
+        "cumulative": 69.60833333333333,
+        "stage": "Baixa Eficiência",
+        "protected_stage": "Baixa Eficiência",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 9,
+        "exposed": 3647,
+        "connected": 269,
+        "rate": 7.375925418151906,
+        "relative": 36.680938672947725,
+        "gain": 2.2416666666666667,
+        "cumulative": 71.85,
+        "stage": "Baixa Eficiência",
+        "protected_stage": "Baixa Eficiência",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 10,
+        "exposed": 3378,
+        "connected": 224,
+        "rate": 6.631142687981054,
+        "relative": 32.977087549014776,
+        "gain": 1.8666666666666667,
+        "cumulative": 73.71666666666667,
+        "stage": "Baixa Eficiência",
+        "protected_stage": "Baixa Eficiência",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 11,
+        "exposed": 3154,
+        "connected": 186,
+        "rate": 5.897273303741281,
+        "relative": 29.327509177329205,
+        "gain": 1.55,
+        "cumulative": 75.26666666666667,
+        "stage": "Baixa Eficiência",
+        "protected_stage": "Baixa Eficiência",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 12,
+        "exposed": 2968,
+        "connected": 161,
+        "rate": 5.4245283018867925,
+        "relative": 26.97651869980999,
+        "gain": 1.3416666666666666,
+        "cumulative": 76.60833333333333,
+        "stage": "Baixa Eficiência",
+        "protected_stage": "Baixa Eficiência",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 13,
+        "exposed": 2807,
+        "connected": 134,
+        "rate": 4.773779836123976,
+        "relative": 23.740305857226566,
+        "gain": 1.1166666666666667,
+        "cumulative": 77.725,
+        "stage": "Zona de Desperdício",
+        "protected_stage": "Zona de Desperdício",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 14,
+        "exposed": 2673,
+        "connected": 116,
+        "rate": 4.339693228582117,
+        "relative": 21.581565993777623,
+        "gain": 0.9666666666666667,
+        "cumulative": 78.69166666666666,
+        "stage": "Zona de Desperdício",
+        "protected_stage": "Zona de Desperdício",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 15,
+        "exposed": 2557,
+        "connected": 97,
+        "rate": 3.7935080172076656,
+        "relative": 18.865352758595932,
+        "gain": 0.8083333333333333,
+        "cumulative": 79.5,
+        "stage": "Zona de Desperdício",
+        "protected_stage": "Zona de Desperdício",
+        "sample_sufficient": true
+      },
+      {
+        "attempt": 16,
+        "exposed": 2460,
+        "connected": 79,
+        "rate": 3.2113821138211383,
+        "relative": 15.9704042129522,
+        "gain": 0.6583333333333333,
+        "cumulative": 80.15833333333333,
+        "stage": "Zona de Desperdício",
+        "protected_stage": "Zona de Desperdício",
+        "sample_sufficient": true
+      }
+    ],
+    "cohort": 12000,
+    "protection_applied": false,
+    "windows": {
+      "cells": {
+        "k": 210,
+        "prior": 0.2495597995394826,
+        "rows": [
+          {
+            "label": "Segunda 9h",
+            "day": 0,
+            "hour": 9,
+            "period": "Manhã",
+            "n": 75,
+            "success": 27,
+            "raw": 36.0,
+            "adjusted": 27.8623,
+            "rank": 10
+          },
+          {
+            "label": "Segunda 10h",
+            "day": 0,
+            "hour": 10,
+            "period": "Manhã",
+            "n": 318,
+            "success": 54,
+            "raw": 16.9811,
+            "adjusted": 20.1529,
+            "rank": 62
+          },
+          {
+            "label": "Segunda 11h",
+            "day": 0,
+            "hour": 11,
+            "period": "Almoço",
+            "n": 374,
+            "success": 83,
+            "raw": 22.1925,
+            "adjusted": 23.1862,
+            "rank": 45
+          },
+          {
+            "label": "Segunda 12h",
+            "day": 0,
+            "hour": 12,
+            "period": "Almoço",
+            "n": 183,
+            "success": 34,
+            "raw": 18.5792,
+            "adjusted": 21.9867,
+            "rank": 56
+          },
+          {
+            "label": "Segunda 13h",
+            "day": 0,
+            "hour": 13,
+            "period": "Almoço",
+            "n": 347,
+            "success": 51,
+            "raw": 14.6974,
+            "adjusted": 18.5651,
+            "rank": 66
+          },
+          {
+            "label": "Segunda 14h",
+            "day": 0,
+            "hour": 14,
+            "period": "Almoço",
+            "n": 367,
+            "success": 101,
+            "raw": 27.5204,
+            "adjusted": 26.5871,
+            "rank": 18
+          },
+          {
+            "label": "Segunda 15h",
+            "day": 0,
+            "hour": 15,
+            "period": "Tarde",
+            "n": 182,
+            "success": 51,
+            "raw": 28.022,
+            "adjusted": 26.3795,
+            "rank": 21
+          },
+          {
+            "label": "Segunda 16h",
+            "day": 0,
+            "hour": 16,
+            "period": "Tarde",
+            "n": 77,
+            "success": 15,
+            "raw": 19.4805,
+            "adjusted": 23.487,
+            "rank": 42
+          },
+          {
+            "label": "Segunda 17h",
+            "day": 0,
+            "hour": 17,
+            "period": "Tarde",
+            "n": 326,
+            "success": 67,
+            "raw": 20.5521,
+            "adjusted": 22.2775,
+            "rank": 52
+          },
+          {
+            "label": "Segunda 18h",
+            "day": 0,
+            "hour": 18,
+            "period": "Noite",
+            "n": 209,
+            "success": 60,
+            "raw": 28.7081,
+            "adjusted": 26.8276,
+            "rank": 16
+          },
+          {
+            "label": "Segunda 19h",
+            "day": 0,
+            "hour": 19,
+            "period": "Noite",
+            "n": 56,
+            "success": 8,
+            "raw": 14.2857,
+            "adjusted": 22.7096,
+            "rank": 50
+          },
+          {
+            "label": "Segunda 20h",
+            "day": 0,
+            "hour": 20,
+            "period": "Noite",
+            "n": 204,
+            "success": 40,
+            "raw": 19.6078,
+            "adjusted": 22.3207,
+            "rank": 51
+          },
+          {
+            "label": "Terça 9h",
+            "day": 1,
+            "hour": 9,
+            "period": "Manhã",
+            "n": 225,
+            "success": 55,
+            "raw": 24.4444,
+            "adjusted": 24.6914,
+            "rank": 35
+          },
+          {
+            "label": "Terça 10h",
+            "day": 1,
+            "hour": 10,
+            "period": "Manhã",
+            "n": 64,
+            "success": 18,
+            "raw": 28.125,
+            "adjusted": 25.6962,
+            "rank": 27
+          },
+          {
+            "label": "Terça 11h",
+            "day": 1,
+            "hour": 11,
+            "period": "Almoço",
+            "n": 204,
+            "success": 63,
+            "raw": 30.8824,
+            "adjusted": 27.8762,
+            "rank": 9
+          },
+          {
+            "label": "Terça 12h",
+            "day": 1,
+            "hour": 12,
+            "period": "Almoço",
+            "n": 390,
+            "success": 123,
+            "raw": 31.5385,
+            "adjusted": 29.2346,
+            "rank": 7
+          },
+          {
+            "label": "Terça 13h",
+            "day": 1,
+            "hour": 13,
+            "period": "Almoço",
+            "n": 200,
+            "success": 52,
+            "raw": 26.0,
+            "adjusted": 25.4653,
+            "rank": 30
+          },
+          {
+            "label": "Terça 14h",
+            "day": 1,
+            "hour": 14,
+            "period": "Almoço",
+            "n": 167,
+            "success": 51,
+            "raw": 30.5389,
+            "adjusted": 27.4291,
+            "rank": 14
+          },
+          {
+            "label": "Terça 15h",
+            "day": 1,
+            "hour": 15,
+            "period": "Tarde",
+            "n": 182,
+            "success": 29,
+            "raw": 15.9341,
+            "adjusted": 20.7672,
+            "rank": 60
+          },
+          {
+            "label": "Terça 16h",
+            "day": 1,
+            "hour": 16,
+            "period": "Tarde",
+            "n": 68,
+            "success": 25,
+            "raw": 36.7647,
+            "adjusted": 27.8444,
+            "rank": 11
+          },
+          {
+            "label": "Terça 17h",
+            "day": 1,
+            "hour": 17,
+            "period": "Tarde",
+            "n": 64,
+            "success": 18,
+            "raw": 28.125,
+            "adjusted": 25.6962,
+            "rank": 28
+          },
+          {
+            "label": "Terça 18h",
+            "day": 1,
+            "hour": 18,
+            "period": "Noite",
+            "n": 64,
+            "success": 10,
+            "raw": 15.625,
+            "adjusted": 22.7765,
+            "rank": 49
+          },
+          {
+            "label": "Terça 19h",
+            "day": 1,
+            "hour": 19,
+            "period": "Noite",
+            "n": 189,
+            "success": 40,
+            "raw": 21.164,
+            "adjusted": 23.1598,
+            "rank": 46
+          },
+          {
+            "label": "Terça 20h",
+            "day": 1,
+            "hour": 20,
+            "period": "Noite",
+            "n": 186,
+            "success": 49,
+            "raw": 26.3441,
+            "adjusted": 25.608,
+            "rank": 29
+          },
+          {
+            "label": "Quarta 9h",
+            "day": 2,
+            "hour": 9,
+            "period": "Manhã",
+            "n": 111,
+            "success": 25,
+            "raw": 22.5225,
+            "adjusted": 24.1145,
+            "rank": 36
+          },
+          {
+            "label": "Quarta 10h",
+            "day": 2,
+            "hour": 10,
+            "period": "Manhã",
+            "n": 60,
+            "success": 12,
+            "raw": 20.0,
+            "adjusted": 23.8547,
+            "rank": 39
+          },
+          {
+            "label": "Quarta 11h",
+            "day": 2,
+            "hour": 11,
+            "period": "Almoço",
+            "n": 210,
+            "success": 54,
+            "raw": 25.7143,
+            "adjusted": 25.3351,
+            "rank": 31
+          },
+          {
+            "label": "Quarta 12h",
+            "day": 2,
+            "hour": 12,
+            "period": "Almoço",
+            "n": 113,
+            "success": 29,
+            "raw": 25.6637,
+            "adjusted": 25.2036,
+            "rank": 32
+          },
+          {
+            "label": "Quarta 13h",
+            "day": 2,
+            "hour": 13,
+            "period": "Almoço",
+            "n": 375,
+            "success": 61,
+            "raw": 16.2667,
+            "adjusted": 19.3859,
+            "rank": 65
+          },
+          {
+            "label": "Quarta 14h",
+            "day": 2,
+            "hour": 14,
+            "period": "Almoço",
+            "n": 217,
+            "success": 59,
+            "raw": 27.1889,
+            "adjusted": 26.0908,
+            "rank": 25
+          },
+          {
+            "label": "Quarta 15h",
+            "day": 2,
+            "hour": 15,
+            "period": "Tarde",
+            "n": 112,
+            "success": 33,
+            "raw": 29.4643,
+            "adjusted": 26.5241,
+            "rank": 20
+          },
+          {
+            "label": "Quarta 16h",
+            "day": 2,
+            "hour": 16,
+            "period": "Tarde",
+            "n": 366,
+            "success": 137,
+            "raw": 37.4317,
+            "adjusted": 32.8833,
+            "rank": 1
+          },
+          {
+            "label": "Quarta 17h",
+            "day": 2,
+            "hour": 17,
+            "period": "Tarde",
+            "n": 309,
+            "success": 112,
+            "raw": 36.246,
+            "adjusted": 31.6778,
+            "rank": 4
+          },
+          {
+            "label": "Quarta 18h",
+            "day": 2,
+            "hour": 18,
+            "period": "Noite",
+            "n": 72,
+            "success": 12,
+            "raw": 16.6667,
+            "adjusted": 22.8396,
+            "rank": 48
+          },
+          {
+            "label": "Quarta 19h",
+            "day": 2,
+            "hour": 19,
+            "period": "Noite",
+            "n": 303,
+            "success": 115,
+            "raw": 37.9538,
+            "adjusted": 32.6331,
+            "rank": 3
+          },
+          {
+            "label": "Quarta 20h",
+            "day": 2,
+            "hour": 20,
+            "period": "Noite",
+            "n": 383,
+            "success": 67,
+            "raw": 17.4935,
+            "adjusted": 20.1362,
+            "rank": 63
+          },
+          {
+            "label": "Quinta 9h",
+            "day": 3,
+            "hour": 9,
+            "period": "Manhã",
+            "n": 281,
+            "success": 80,
+            "raw": 28.4698,
+            "adjusted": 26.9669,
+            "rank": 15
+          },
+          {
+            "label": "Quinta 10h",
+            "day": 3,
+            "hour": 10,
+            "period": "Manhã",
+            "n": 253,
+            "success": 71,
+            "raw": 28.0632,
+            "adjusted": 26.6539,
+            "rank": 17
+          },
+          {
+            "label": "Quinta 11h",
+            "day": 3,
+            "hour": 11,
+            "period": "Almoço",
+            "n": 367,
+            "success": 137,
+            "raw": 37.3297,
+            "adjusted": 32.8263,
+            "rank": 2
+          },
+          {
+            "label": "Quinta 12h",
+            "day": 3,
+            "hour": 12,
+            "period": "Almoço",
+            "n": 256,
+            "success": 39,
+            "raw": 15.2344,
+            "adjusted": 19.6154,
+            "rank": 64
+          },
+          {
+            "label": "Quinta 13h",
+            "day": 3,
+            "hour": 13,
+            "period": "Almoço",
+            "n": 124,
+            "success": 31,
+            "raw": 25.0,
+            "adjusted": 24.9723,
+            "rank": 33
+          },
+          {
+            "label": "Quinta 14h",
+            "day": 3,
+            "hour": 14,
+            "period": "Almoço",
+            "n": 44,
+            "success": 15,
+            "raw": 34.0909,
+            "adjusted": 26.5384,
+            "rank": 19
+          },
+          {
+            "label": "Quinta 15h",
+            "day": 3,
+            "hour": 15,
+            "period": "Tarde",
+            "n": 50,
+            "success": 19,
+            "raw": 38.0,
+            "adjusted": 27.4644,
+            "rank": 13
+          },
+          {
+            "label": "Quinta 16h",
+            "day": 3,
+            "hour": 16,
+            "period": "Tarde",
+            "n": 326,
+            "success": 66,
+            "raw": 20.2454,
+            "adjusted": 22.091,
+            "rank": 54
+          },
+          {
+            "label": "Quinta 17h",
+            "day": 3,
+            "hour": 17,
+            "period": "Tarde",
+            "n": 52,
+            "success": 15,
+            "raw": 28.8462,
+            "adjusted": 25.7281,
+            "rank": 26
+          },
+          {
+            "label": "Quinta 18h",
+            "day": 3,
+            "hour": 18,
+            "period": "Noite",
+            "n": 164,
+            "success": 27,
+            "raw": 16.4634,
+            "adjusted": 21.232,
+            "rank": 59
+          },
+          {
+            "label": "Quinta 19h",
+            "day": 3,
+            "hour": 19,
+            "period": "Noite",
+            "n": 242,
+            "success": 53,
+            "raw": 21.9008,
+            "adjusted": 23.3203,
+            "rank": 44
+          },
+          {
+            "label": "Quinta 20h",
+            "day": 3,
+            "hour": 20,
+            "period": "Noite",
+            "n": 79,
+            "success": 27,
+            "raw": 34.1772,
+            "adjusted": 27.4767,
+            "rank": 12
+          },
+          {
+            "label": "Sexta 9h",
+            "day": 4,
+            "hour": 9,
+            "period": "Manhã",
+            "n": 302,
+            "success": 105,
+            "raw": 34.7682,
+            "adjusted": 30.7437,
+            "rank": 5
+          },
+          {
+            "label": "Sexta 10h",
+            "day": 4,
+            "hour": 10,
+            "period": "Manhã",
+            "n": 124,
+            "success": 28,
+            "raw": 22.5806,
+            "adjusted": 24.0741,
+            "rank": 38
+          },
+          {
+            "label": "Sexta 11h",
+            "day": 4,
+            "hour": 11,
+            "period": "Almoço",
+            "n": 299,
+            "success": 59,
+            "raw": 19.7324,
+            "adjusted": 21.8875,
+            "rank": 57
+          },
+          {
+            "label": "Sexta 12h",
+            "day": 4,
+            "hour": 12,
+            "period": "Almoço",
+            "n": 332,
+            "success": 67,
+            "raw": 20.1807,
+            "adjusted": 22.0309,
+            "rank": 55
+          },
+          {
+            "label": "Sexta 13h",
+            "day": 4,
+            "hour": 13,
+            "period": "Almoço",
+            "n": 308,
+            "success": 83,
+            "raw": 26.9481,
+            "adjusted": 26.1405,
+            "rank": 24
+          },
+          {
+            "label": "Sexta 14h",
+            "day": 4,
+            "hour": 14,
+            "period": "Almoço",
+            "n": 290,
+            "success": 68,
+            "raw": 23.4483,
+            "adjusted": 24.0815,
+            "rank": 37
+          },
+          {
+            "label": "Sexta 15h",
+            "day": 4,
+            "hour": 15,
+            "period": "Tarde",
+            "n": 161,
+            "success": 45,
+            "raw": 27.9503,
+            "adjusted": 26.2554,
+            "rank": 22
+          },
+          {
+            "label": "Sexta 16h",
+            "day": 4,
+            "hour": 16,
+            "period": "Tarde",
+            "n": 366,
+            "success": 75,
+            "raw": 20.4918,
+            "adjusted": 22.1194,
+            "rank": 53
+          },
+          {
+            "label": "Sexta 17h",
+            "day": 4,
+            "hour": 17,
+            "period": "Tarde",
+            "n": 381,
+            "success": 88,
+            "raw": 23.0971,
+            "adjusted": 23.7576,
+            "rank": 40
+          },
+          {
+            "label": "Sexta 18h",
+            "day": 4,
+            "hour": 18,
+            "period": "Noite",
+            "n": 387,
+            "success": 118,
+            "raw": 30.491,
+            "adjusted": 28.544,
+            "rank": 8
+          },
+          {
+            "label": "Sexta 19h",
+            "day": 4,
+            "hour": 19,
+            "period": "Noite",
+            "n": 275,
+            "success": 52,
+            "raw": 18.9091,
+            "adjusted": 21.5273,
+            "rank": 58
+          },
+          {
+            "label": "Sexta 20h",
+            "day": 4,
+            "hour": 20,
+            "period": "Noite",
+            "n": 322,
+            "success": 56,
+            "raw": 17.3913,
+            "adjusted": 20.3774,
+            "rank": 61
+          },
+          {
+            "label": "Sábado 10h",
+            "day": 5,
+            "hour": 10,
+            "period": "Manhã",
+            "n": 359,
+            "success": 118,
+            "raw": 32.8691,
+            "adjusted": 29.9486,
+            "rank": 6
+          },
+          {
+            "label": "Sábado 11h",
+            "day": 5,
+            "hour": 11,
+            "period": "Almoço",
+            "n": 316,
+            "success": 71,
+            "raw": 22.4684,
+            "adjusted": 23.4615,
+            "rank": 43
+          },
+          {
+            "label": "Sábado 12h",
+            "day": 5,
+            "hour": 12,
+            "period": "Almoço",
+            "n": 85,
+            "success": 15,
+            "raw": 17.6471,
+            "adjusted": 22.85,
+            "rank": 47
+          },
+          {
+            "label": "Sábado 13h",
+            "day": 5,
+            "hour": 13,
+            "period": "Almoço",
+            "n": 207,
+            "success": 51,
+            "raw": 24.6377,
+            "adjusted": 24.798,
+            "rank": 34
+          },
+          {
+            "label": "Sábado 14h",
+            "day": 5,
+            "hour": 14,
+            "period": "Almoço",
+            "n": 390,
+            "success": 105,
+            "raw": 26.9231,
+            "adjusted": 26.2346,
+            "rank": 23
+          },
+          {
+            "label": "Sábado 15h",
+            "day": 5,
+            "hour": 15,
+            "period": "Tarde",
+            "n": 272,
+            "success": 61,
+            "raw": 22.4265,
+            "adjusted": 23.5285,
+            "rank": 41
+          }
+        ]
+      },
+      "periods": {
+        "k": 3135,
+        "prior": 0.2495597995394826,
+        "rows": [
+          {
+            "label": "Manhã",
+            "n": 2172,
+            "success": 593,
+            "raw": 27.302,
+            "adjusted": 25.9161,
+            "rank": 1
+          },
+          {
+            "label": "Almoço",
+            "n": 6165,
+            "success": 1502,
+            "raw": 24.3633,
+            "adjusted": 24.5631,
+            "rank": 3
+          },
+          {
+            "label": "Tarde",
+            "n": 3294,
+            "success": 856,
+            "raw": 25.9866,
+            "adjusted": 25.4841,
+            "rank": 2
+          },
+          {
+            "label": "Noite",
+            "n": 3135,
+            "success": 734,
+            "raw": 23.4131,
+            "adjusted": 24.1845,
+            "rank": 4
+          }
+        ]
+      },
+      "days": {
+        "k": 2238,
+        "prior": 0.2495597995394826,
+        "rows": [
+          {
+            "label": "Segunda",
+            "n": 2718,
+            "success": 591,
+            "raw": 21.7439,
+            "adjusted": 23.1944,
+            "rank": 6
+          },
+          {
+            "label": "Terça",
+            "n": 2003,
+            "success": 533,
+            "raw": 26.6101,
+            "adjusted": 25.7372,
+            "rank": 2
+          },
+          {
+            "label": "Quarta",
+            "n": 2631,
+            "success": 716,
+            "raw": 27.214,
+            "adjusted": 26.1761,
+            "rank": 1
+          },
+          {
+            "label": "Quinta",
+            "n": 2238,
+            "success": 580,
+            "raw": 25.916,
+            "adjusted": 25.436,
+            "rank": 3
+          },
+          {
+            "label": "Sexta",
+            "n": 3547,
+            "success": 844,
+            "raw": 23.7948,
+            "adjusted": 24.244,
+            "rank": 5
+          },
+          {
+            "label": "Sábado",
+            "n": 1629,
+            "success": 421,
+            "raw": 25.8441,
+            "adjusted": 25.3301,
+            "rank": 4
+          }
+        ]
+      }
+    },
+    "cadences": {
+      "ranges": [
+        "0–1h",
+        "1–3h",
+        "3–6h",
+        "6–12h",
+        "12–24h",
+        "24h+"
+      ],
+      "clusters": [
+        {
+          "name": "Planning Cluster 1",
+          "k": 108,
+          "prior": 0.2373358348968105,
+          "rows": [
+            {
+              "label": "0–1h",
+              "n": 108,
+              "success": 30,
+              "raw": 27.7778,
+              "adjusted": 25.7557,
+              "rank": 3
+            },
+            {
+              "label": "1–3h",
+              "n": 84,
+              "success": 18,
+              "raw": 21.4286,
+              "adjusted": 22.7251,
+              "rank": 4
+            },
+            {
+              "label": "3–6h",
+              "n": 331,
+              "success": 46,
+              "raw": 13.8973,
+              "adjusted": 16.3171,
+              "rank": 6
+            },
+            {
+              "label": "6–12h",
+              "n": 217,
+              "success": 76,
+              "raw": 35.023,
+              "adjusted": 31.2715,
+              "rank": 1
+            },
+            {
+              "label": "12–24h",
+              "n": 222,
+              "success": 61,
+              "raw": 27.4775,
+              "adjusted": 26.2522,
+              "rank": 2
+            },
+            {
+              "label": "24h+",
+              "n": 104,
+              "success": 22,
+              "raw": 21.1538,
+              "adjusted": 22.4681,
+              "rank": 5
+            }
+          ]
+        },
+        {
+          "name": "Planning Cluster 2",
+          "k": 145,
+          "prior": 0.29918032786885246,
+          "rows": [
+            {
+              "label": "0–1h",
+              "n": 434,
+              "success": 140,
+              "raw": 32.2581,
+              "adjusted": 31.672,
+              "rank": 2
+            },
+            {
+              "label": "1–3h",
+              "n": 443,
+              "success": 125,
+              "raw": 28.2167,
+              "adjusted": 28.6362,
+              "rank": 5
+            },
+            {
+              "label": "3–6h",
+              "n": 271,
+              "success": 101,
+              "raw": 37.2694,
+              "adjusted": 34.707,
+              "rank": 1
+            },
+            {
+              "label": "6–12h",
+              "n": 145,
+              "success": 20,
+              "raw": 13.7931,
+              "adjusted": 21.8556,
+              "rank": 6
+            },
+            {
+              "label": "12–24h",
+              "n": 61,
+              "success": 17,
+              "raw": 27.8689,
+              "adjusted": 29.3112,
+              "rank": 4
+            },
+            {
+              "label": "24h+",
+              "n": 110,
+              "success": 35,
+              "raw": 31.8182,
+              "adjusted": 30.7377,
+              "rank": 3
+            }
+          ]
+        },
+        {
+          "name": "Planning Cluster 3",
+          "k": 272,
+          "prior": 0.21221102548903378,
+          "rows": [
+            {
+              "label": "0–1h",
+              "n": 167,
+              "success": 50,
+              "raw": 29.9401,
+              "adjusted": 24.5379,
+              "rank": 2
+            },
+            {
+              "label": "1–3h",
+              "n": 445,
+              "success": 92,
+              "raw": 20.6742,
+              "adjusted": 20.8816,
+              "rank": 3
+            },
+            {
+              "label": "3–6h",
+              "n": 204,
+              "success": 30,
+              "raw": 14.7059,
+              "adjusted": 18.4289,
+              "rank": 5
+            },
+            {
+              "label": "6–12h",
+              "n": 315,
+              "success": 61,
+              "raw": 19.3651,
+              "adjusted": 20.2251,
+              "rank": 4
+            },
+            {
+              "label": "12–24h",
+              "n": 272,
+              "success": 87,
+              "raw": 31.9853,
+              "adjusted": 26.6032,
+              "rank": 1
+            },
+            {
+              "label": "24h+",
+              "n": 284,
+              "success": 38,
+              "raw": 13.3803,
+              "adjusted": 17.2161,
+              "rank": 6
+            }
+          ]
+        },
+        {
+          "name": "Planning Cluster 4",
+          "k": 163,
+          "prior": 0.27509881422924903,
+          "rows": [
+            {
+              "label": "0–1h",
+              "n": 125,
+              "success": 32,
+              "raw": 25.6,
+              "adjusted": 26.6809,
+              "rank": 4
+            },
+            {
+              "label": "1–3h",
+              "n": 235,
+              "success": 85,
+              "raw": 36.1702,
+              "adjusted": 32.6234,
+              "rank": 1
+            },
+            {
+              "label": "3–6h",
+              "n": 163,
+              "success": 50,
+              "raw": 30.6748,
+              "adjusted": 29.0924,
+              "rank": 2
+            },
+            {
+              "label": "6–12h",
+              "n": 150,
+              "success": 34,
+              "raw": 22.6667,
+              "adjusted": 25.1889,
+              "rank": 5
+            },
+            {
+              "label": "12–24h",
+              "n": 421,
+              "success": 96,
+              "raw": 22.8029,
+              "adjusted": 24.1166,
+              "rank": 6
+            },
+            {
+              "label": "24h+",
+              "n": 171,
+              "success": 51,
+              "raw": 29.8246,
+              "adjusted": 28.6949,
+              "rank": 3
+            }
+          ]
+        },
+        {
+          "name": "Planning Cluster 5",
+          "k": 169,
+          "prior": 0.2943396226415094,
+          "rows": [
+            {
+              "label": "0–1h",
+              "n": 201,
+              "success": 54,
+              "raw": 26.8657,
+              "adjusted": 28.0388,
+              "rank": 4
+            },
+            {
+              "label": "1–3h",
+              "n": 169,
+              "success": 56,
+              "raw": 33.1361,
+              "adjusted": 31.285,
+              "rank": 2
+            },
+            {
+              "label": "3–6h",
+              "n": 273,
+              "success": 61,
+              "raw": 22.3443,
+              "adjusted": 25.0551,
+              "rank": 6
+            },
+            {
+              "label": "6–12h",
+              "n": 89,
+              "success": 20,
+              "raw": 22.4719,
+              "adjusted": 27.0323,
+              "rank": 5
+            },
+            {
+              "label": "12–24h",
+              "n": 73,
+              "success": 24,
+              "raw": 32.8767,
+              "adjusted": 30.4725,
+              "rank": 3
+            },
+            {
+              "label": "24h+",
+              "n": 255,
+              "success": 97,
+              "raw": 38.0392,
+              "adjusted": 34.6093,
+              "rank": 1
+            }
+          ]
+        },
+        {
+          "name": "Planning Cluster 6",
+          "k": 366,
+          "prior": 0.2115485564304462,
+          "rows": [
+            {
+              "label": "0–1h",
+              "n": 392,
+              "success": 81,
+              "raw": 20.6633,
+              "adjusted": 20.9006,
+              "rank": 4
+            },
+            {
+              "label": "1–3h",
+              "n": 366,
+              "success": 49,
+              "raw": 13.388,
+              "adjusted": 17.2714,
+              "rank": 6
+            },
+            {
+              "label": "3–6h",
+              "n": 286,
+              "success": 76,
+              "raw": 26.5734,
+              "adjusted": 23.5317,
+              "rank": 1
+            },
+            {
+              "label": "6–12h",
+              "n": 386,
+              "success": 74,
+              "raw": 19.171,
+              "adjusted": 20.1365,
+              "rank": 5
+            },
+            {
+              "label": "12–24h",
+              "n": 432,
+              "success": 107,
+              "raw": 24.7685,
+              "adjusted": 23.1111,
+              "rank": 2
+            },
+            {
+              "label": "24h+",
+              "n": 43,
+              "success": 16,
+              "raw": 37.2093,
+              "adjusted": 22.8427,
+              "rank": 3
+            }
+          ]
+        }
+      ],
+      "consolidated": [
+        {
+          "label": "0–1h",
+          "n": 1427,
+          "success": 387,
+          "raw": 2711.9855501051156,
+          "adjusted": 26.48145718290119
+        },
+        {
+          "label": "1–3h",
+          "n": 1742,
+          "success": 425,
+          "raw": 2439.7259127439725,
+          "adjusted": 24.777298163031
+        },
+        {
+          "label": "3–6h",
+          "n": 1528,
+          "success": 364,
+          "raw": 2382.1986910994765,
+          "adjusted": 24.13496230366492
+        },
+        {
+          "label": "6–12h",
+          "n": 1302,
+          "success": 285,
+          "raw": 2188.940637480799,
+          "adjusted": 23.258665668202763
+        },
+        {
+          "label": "12–24h",
+          "n": 1481,
+          "success": 392,
+          "raw": 2646.8616812964215,
+          "adjusted": 25.127358744091826
+        },
+        {
+          "label": "24h+",
+          "n": 967,
+          "success": 259,
+          "raw": 2678.387269906929,
+          "adjusted": 26.185767631851085
+        }
+      ]
+    }
+  }
+}
