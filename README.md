@@ -4,7 +4,7 @@ Seis relatórios técnicos sobre análise de operações, modelagem, simulação
 
 Todos os exemplos usam dados fictícios. O objetivo é mostrar o raciocínio e a forma de construir as análises, sem expor dados, pessoas, campanhas ou estruturas internas.
 
-Para conhecer o portfólio completo, acesse o [meu site pessoal (portólio)](https://denistostes.figma.site/) e entre na seção **Projetos**. Os cards dessa seção são a porta de entrada recomendada para os relatórios; cada card leva à página correspondente deste repositório.
+Para conhecer o portfólio completo, acesse o [meu site](https://denistostes.figma.site/) e entre na seção **Projetos**. Os cards dessa seção são a porta de entrada recomendada para os relatórios; cada card leva à página correspondente deste repositório.
 
 ## Visão geral
 
