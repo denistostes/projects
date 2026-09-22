@@ -1,0 +1,174 @@
+{
+  "synthetic": true,
+  "payload": {
+    "nodes": [
+      {
+        "id": "ideia_1",
+        "title": "Janela preferida",
+        "category": "Contato",
+        "impact": 4,
+        "effort": 2,
+        "score": 80,
+        "status": "Hipótese fictícia, não testada",
+        "problem": "Tentativas são distribuídas por conveniência de escala, sem considerar quando o contato costuma acontecer.",
+        "hypothesis": "Concentrar parte das tentativas nas janelas com melhor contato pode aumentar contatos por lead sem elevar a pressão total.",
+        "test": "Sortear leads elegíveis entre agenda habitual e agenda alternativa; manter o mesmo limite de tentativas, acompanhando a jornada completa.",
+        "metric": "Contatos únicos por lead elegível; acompanhar Opps por lead, opt-outs e tempo até o primeiro contato."
+      },
+      {
+        "id": "ideia_2",
+        "title": "Limite de tentativas",
+        "category": "Contato",
+        "impact": 5,
+        "effort": 3,
+        "score": 88,
+        "status": "Hipótese fictícia, não testada",
+        "problem": "Repetições tardias ocupam capacidade mesmo quando o retorno marginal já é baixo.",
+        "hypothesis": "Um teto menor pode liberar capacidade para leads ainda pouco trabalhados sem perda relevante de oportunidades.",
+        "test": "Comparar tetos de tentativas em grupos sorteados, com a mesma janela de acompanhamento e regra prévia de encerramento.",
+        "metric": "Opps por mil leads elegíveis e tentativas por oportunidade; verificar perda de contato e diferenças entre coortes."
+      },
+      {
+        "id": "ideia_3",
+        "title": "Intervalo de retorno",
+        "category": "Contato",
+        "impact": 3,
+        "effort": 2,
+        "score": 66,
+        "status": "Hipótese fictícia, não testada",
+        "problem": "Novas tentativas muito próximas podem repetir a mesma indisponibilidade do cliente.",
+        "hypothesis": "Espaçar retornos pode melhorar contato por tentativa, mas também atrasar a primeira conversa.",
+        "test": "Sortear duas cadências, preservando o limite total e a janela de observação. Comparar também a velocidade de atendimento.",
+        "metric": "L2C da coorte completa, tempo até contato e Opps por lead. Taxa por tentativa isolada não decide o teste."
+      },
+      {
+        "id": "ideia_4",
+        "title": "Capacidade de retorno",
+        "category": "Capacidade",
+        "impact": 4,
+        "effort": 3,
+        "score": 74,
+        "status": "Hipótese fictícia, não testada",
+        "problem": "Retornos combinados disputam capacidade com novas chamadas e podem ocorrer fora do horário acordado.",
+        "hypothesis": "Reservar uma pequena parcela da capacidade pode reduzir atrasos sem deteriorar a entrada de novos leads.",
+        "test": "Alternar blocos comparáveis com e sem reserva, controlando volume e mix. Definir limite de atraso antes do teste.",
+        "metric": "Retornos no prazo, Opps por HC/dia, fila pendente e capacidade ociosa como contrapesos."
+      },
+      {
+        "id": "ideia_5",
+        "title": "Alocação por perfil",
+        "category": "Capacidade",
+        "impact": 5,
+        "effort": 4,
+        "score": 82,
+        "status": "Hipótese fictícia, não testada",
+        "problem": "A mesma distribuição de pessoas é mantida em contextos com respostas diferentes ao perfil de performance.",
+        "hypothesis": "Uma alocação conjunta por Score pode superar a distribuição fixa dentro dos limites de cobertura.",
+        "test": "Comparar blocos equivalentes com rotação de equipes e restrições idênticas; registrar desvios de execução e composição.",
+        "metric": "Opps por HC/dia, cobertura e estabilidade por segmento. Score previsto não substitui resultado observado."
+      },
+      {
+        "id": "ideia_6",
+        "title": "Registro confiável",
+        "category": "Medição",
+        "impact": 4,
+        "effort": 2,
+        "score": 80,
+        "status": "Hipótese fictícia, não testada",
+        "problem": "Falhas de registro podem parecer dias com zero resultado e contaminar médias protegidas.",
+        "hypothesis": "Verificações de cobertura antes do cálculo reduzem interpretações equivocadas sobre queda de performance.",
+        "test": "Criar casos fictícios com zero verdadeiro, carga atrasada e chave repetida; comparar indicadores com o resultado esperado.",
+        "metric": "Cobertura por dia, duplicidades detectadas e divergência de totais reconciliados. Ausência não vira zero automaticamente."
+      },
+      {
+        "id": "ideia_7",
+        "title": "Comparação justa",
+        "category": "Medição",
+        "impact": 5,
+        "effort": 2,
+        "score": 94,
+        "status": "Hipótese fictícia, não testada",
+        "problem": "Períodos com dias da semana e mixes diferentes podem produzir uma melhora aparente.",
+        "hypothesis": "Calendário e composição comparáveis tornam a comparação mais interpretável, sem provar causalidade.",
+        "test": "Recalcular os mesmos resultados com e sem alinhamento de calendário e estratificação de mix. Documentar o que muda.",
+        "metric": "Diferença de L2O ponderado, Opps/dia e composição por segmento; explicitar denominadores e exclusões."
+      },
+      {
+        "id": "ideia_8",
+        "title": "Teste combinado",
+        "category": "Aprendizado",
+        "impact": 4,
+        "effort": 4,
+        "score": 68,
+        "status": "Hipótese fictícia, não testada",
+        "problem": "Mudar janela e cadência ao mesmo tempo impede separar o efeito de cada decisão.",
+        "hypothesis": "Um desenho com quatro combinações permite examinar os efeitos individuais e sua interação.",
+        "test": "Distribuir unidades elegíveis entre janela atual/nova e cadência atual/nova. Dimensionar amostra antes de começar e evitar parada oportunista.",
+        "metric": "Opps por unidade sorteada, efeitos principais e interação, com incerteza. Não escolher vencedor apenas pela maior média."
+      }
+    ],
+    "edges": [
+      {
+        "source": "ideia_1",
+        "target": "ideia_3",
+        "type": "Interação a testar",
+        "reason": "O efeito de uma janela pode depender do intervalo entre tentativas."
+      },
+      {
+        "source": "ideia_1",
+        "target": "ideia_8",
+        "type": "Complementaridade",
+        "reason": "O desenho combinado permite isolar a contribuição da janela."
+      },
+      {
+        "source": "ideia_3",
+        "target": "ideia_8",
+        "type": "Complementaridade",
+        "reason": "A cadência é o segundo fator do experimento combinado."
+      },
+      {
+        "source": "ideia_2",
+        "target": "ideia_3",
+        "type": "Interação a testar",
+        "reason": "Um teto menor modifica quantas tentativas cabem em cada cadência."
+      },
+      {
+        "source": "ideia_2",
+        "target": "ideia_4",
+        "type": "Complementaridade",
+        "reason": "Capacidade liberada por repetições evitadas pode ser destinada a retornos."
+      },
+      {
+        "source": "ideia_4",
+        "target": "ideia_5",
+        "type": "Disputa de capacidade",
+        "reason": "A reserva de retornos precisa entrar como restrição na alocação."
+      },
+      {
+        "source": "ideia_6",
+        "target": "ideia_7",
+        "type": "Dependência",
+        "reason": "Comparações exigem separar zero verdadeiro de falha de carga."
+      },
+      {
+        "source": "ideia_6",
+        "target": "ideia_2",
+        "type": "Dependência",
+        "reason": "A curva de retorno marginal exige tentativas e resultados corretamente registrados."
+      },
+      {
+        "source": "ideia_7",
+        "target": "ideia_5",
+        "type": "Dependência",
+        "reason": "A avaliação de alocação precisa controlar diferenças de mix e calendário."
+      },
+      {
+        "source": "ideia_7",
+        "target": "ideia_8",
+        "type": "Complementaridade",
+        "reason": "O desenho experimental também precisa de períodos e populações comparáveis."
+      }
+    ],
+    "method": "Score editorial; conexões explícitas, sem inferência causal."
+  }
+}
