@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Da segmentação de performance à alocação conjunta sob restrições. Relatório técnico com exemplos fictícios, metodologia e interpretação das visualizações."><title>Elasticidade e Golden Set | Denis Tostes</title><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="identidade.css"><link rel="stylesheet" href="relatorio.css"><script type="application/json" id="reportViews">[["Indicadores e solução de referência","Os indicadores resumem o pool elegível, a distribuição e a função objetivo. O Score ótimo deve ser comparado à referência viável sob as mesmas restrições. Se a referência tivesse acesso a outro conjunto de vagas, turnos ou pessoas, o contraste deixaria de medir apenas a diferença entre as duas decisões.","Uma melhoria percentual de Score é uma melhoria nesse objetivo matemático. Não tem interpretação automática como aumento percentual de oportunidades, receita ou produtividade. A referência do exemplo é uma solução viável encontrada sem maximização, não uma reconstrução da escala de uma empresa. Quando o problema for inviável, não se deve apresentar uma atribuição parcial como solução válida."],["Sankey do Golden Set","O fluxo liga o perfil global ao perfil específico na campanha alocada e, depois, ao destino. Cada pessoa contribui uma unidade em cada passagem. A espessura dos caminhos representa quantidade de pessoas, não taxa de conversão ou Score. Os agrupamentos intermediários podem reunir pessoas de diferentes campanhas com o mesmo rótulo de perfil.","Acompanhe a conservação do total entre as três etapas. Ramificações mostram como um mesmo perfil global pode aparecer em perfis específicos e destinos distintos. Isso é compatível com a ideia de afinidade por contexto. Para explicar uma pessoa, use a tabela individual: o agregado não permite reconstruir sozinho todas as restrições e os componentes de seu Score."],["Elasticidade observada","A tabela compara o C2O ponderado dos grupos globais Q1/Q2 com Q3/Q4, em cada campanha e no global. O resultado é uma diferença em pontos percentuais. Neste projeto, elasticidade nomeia uma medida descritiva de contraste entre perfis; não é a elasticidade econômica de uma função nem uma estimativa causal de resposta ao talento.","Compare o tamanho dos denominadores antes de interpretar uma diferença. Um contraste maior pode refletir composição, exposição ou seleção. Os grupos são ajustados na mesma janela em que as taxas são comparadas, portanto a separação não equivale a validação fora da amostra. O multiplicador de prioridade da alocação é configurado à parte; não é aprendido automaticamente da tabela."],["Capacidade e rastreabilidade","A capacidade planejada expressa a demanda inicial; a ajustada é a capacidade compatibilizada com o pool; a ocupada mostra o resultado da atribuição. A tabela individual complementa o Sankey com destino, perfil, histórico e componentes do Score. Ela é a base para conferir por que uma combinação entrou na solução.","A tabela apresenta a combinação de cada analista fictício até o destino, acompanhada da decomposição do Score. Diferencie histórico de Opps/dia, meta de referência e Score: são três grandezas com origens distintas. Consulte também status e estados visitados do solver. Um resultado ótimo vale para a formulação e a precisão declaradas, não garante que os pesos escolhidos representem perfeitamente a estratégia operacional."]]</script><script src="app.js" defer></script><script src="relatorio.js" defer></script></head>
+<body class="technical-report" data-report="02-elasticidade-e-alocacao"><nav class="report-toolbar" aria-label="Ações do relatório"><a href="https://denistostes.figma.site/#projetos"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m12 19-7-7 7-7M5 12h14"/></svg>Voltar ao portfólio</a><button id="savePdf" type="button"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8zM14 2v6h6M12 11v7m-3-3 3 3 3-3"/></svg>Salvar PDF</button></nav>
+<header class="report-cover"><div><span class="report-kicker">RELATÓRIO TÉCNICO</span><h1>Elasticidade e Golden Set</h1><p>Da segmentação de performance à alocação conjunta sob restrições</p></div></header>
+<main class="report-main"><section class="report-prose report-summary"><h2>O que este projeto resolve</h2><p class="report-lead">O estudo de elasticidade foi o ponto de partida: comparar a conversão entre perfis em diferentes contextos levantou a pergunta de onde cada perfil poderia contribuir melhor. O Golden Set surgiu como consequência, transformando esse diagnóstico em um problema de alocação conjunta, com afinidades, vagas e restrições.</p><p>Quando pessoas e vagas são limitadas, decisões individuais competem pelo mesmo recurso. A alocação deve considerar capacidades, turnos e elegibilidade ao mesmo tempo. O objetivo demonstrado é maximizar um Score declarado. Isso é diferente de prever oportunidades futuras ou provar que uma mudança de escala produzirá determinado ganho real.</p><aside class="report-note">Todos os exemplos e valores deste relatório são fictícios. O conteúdo explica os métodos e suas limitações, sem divulgar dados de uma operação real.</aside></section>
+<section class="report-band"><div class="report-prose"><h2>Conceitos para acompanhar a análise</h2><dl class="report-definitions"><div><dt>Tração</dt><dd>Produção média diária, expressa como Opps/dia, segundo o calendário e a presença definidos no método.</dd></div><div><dt>Eficiência</dt><dd>C2O: oportunidades divididas pelas conectadas. Mede conversão, não produção absoluta.</dd></div><div><dt>Score</dt><dd>Função de utilidade que combina perfil específico, perfil global, produção e prioridade do destino.</dd></div><div><dt>Alocação ótima</dt><dd>Solução com maior Score entre as combinações que satisfazem todas as restrições do problema definido.</dd></div></dl></div></section>
+<section class="report-demo" id="demoSection"><div class="report-demo-intro"><h2>Visões e interpretação</h2><p>As visões apresentam dados fictícios e suas regras de interpretação. O relatório pode ser lido em sequência, sem abrir painéis ou escolher campanhas.</p><p id="status" role="status"></p></div><div id="app"></div></section>
+<section class="report-prose report-method"><div class="report-example"><h3>Um exemplo calculado</h3><p>Considere duas pessoas e duas vagas, uma por destino. A pessoa A tem Score 10 na rota X e 9 na Y; B tem 9 na X e 1 na Y. Alocar A primeiro em sua melhor rota gera 10 + 1 = 11. A decisão conjunta coloca A em Y e B em X, totalizando 9 + 9 = 18. O exemplo ilustra por que ordenar pessoas e escolher localmente pode perder para a otimização do conjunto.</p></div><h2>Metodologia e regras de cálculo</h2><p>Esta seção detalha a implementação pública representada nos exemplos. Simplificações e adaptações estão explicitadas para não confundir a demonstração com uma configuração operacional.</p><h3>Do estudo de elasticidade ao Golden Set</h3>
+<p>O estudo de elasticidade antecedeu o Golden Set. A diferença de conversão entre perfis, em diferentes contextos, motivou a investigação de afinidade: uma pessoa com bom desempenho global não precisa ser a melhor escolha em toda campanha.</p>
+<p>O passo seguinte foi transformar essa pergunta em decisão conjunta. O K-Means organiza os perfis; o Score combina afinidade específica, global e produção; a programação inteira distribui as pessoas sob restrições. O Sankey mostra os caminhos da solução. O contraste de elasticidade fundamenta a pergunta de alocação, mas não estima causalmente os ganhos nem calcula automaticamente os pesos do Score.</p>
+<p>Este estudo de caso preserva o núcleo do modelo original de K-Means e programação linear inteira, não a simplificação posterior de classificação usada no Hub.</p>
+<h3>Problema de decisão</h3>
+<p>Dado um pool elegível, um histórico de produção, as vagas por turno e as restrições de atuação, qual combinação de atribuições maximiza o Score total?</p>
+<p>A decisão é conjunta: escolher o melhor destino de uma pessoa pode consumir a vaga necessária a outra. Uma ordenação seguida de escolha gulosa não resolve, em geral, esse conflito. </p>
+<h3>1. Histórico, calendário e exposição</h3>
+<p>A janela contém 28 dias corridos fictícios. O calendário exclui domingos; não reproduz feriados ou regras de uma localidade. Uma pessoa pertence ao pool pela elegibilidade no roster. Os mesmos dias de operação são usados nos numeradores e denominadores.</p>
+<p>Para analista i e campanha c:</p>
+<ul>
+<li>Tração(i,c) = oportunidades(i,c) / dias de presença global(i).</li>
+<li>Eficiência(i,c) = 100 × oportunidades(i,c) / conectadas(i,c).</li>
+</ul>
+<p>A presença é contada uma única vez por analista/dia, mesmo que haja atuação em várias campanhas. A métrica específica não usa dias exclusivos da campanha. Assim, incorpora tanto desempenho quanto exposição: não é uma estimativa isolada de habilidade.</p>
+<p>O perfil global soma as frentes principais e uma frente complementar. Sem contatos no escopo, o perfil é “Sem histórico”; não se inventa uma taxa zero nem um grupo de baixa performance.</p>
+<h3>2. K-Means 2D</h3>
+<p>Cada escopo, global e cada campanha, é ajustado separadamente:</p>
+<ol>
+<li>Filtrar o roster elegível com observações no escopo.</li>
+<li>Padronizar Opps/dia e C2O com média e desvio populacional desse escopo.</li>
+<li>Executar Lloyd, com inicialização K-Means++, dez reinícios determinísticos e até 150 iterações.</li>
+<li>Selecionar o reinício com menor soma de distâncias quadráticas aos centróides.</li>
+<li>Ordenar os grupos pela soma das duas coordenadas padronizadas do centróide.</li>
+<li>Rotular os grupos ordenados Q1, Q2, Q3 e Q4.</li>
+</ol>
+<p>Q1–Q4 são rótulos de grupos de performance, não quartis de tamanho igual nem quadrantes geométricos. O K-Means encontra uma solução local para o seu próprio objetivo de agrupamento; o ótimo da alocação não transforma a clusterização em ótimo global.</p>
+<p>Com menos de quatro pontos distintos, não há quatro grupos identificáveis: a função retorna ausência de modelo. A implementação pública usa a biblioteca padrão, não executa scikit-learn e não promete resultados numéricos idênticos aos de outra biblioteca.</p>
+<h3>3. Score de afinidade</h3>
+<p>O Score de uma atribuição combina:</p>
+<pre><code>base(i,j) =
+    w_especifico × pontos(grupo específico)
+  + w_global × pontos(grupo global)
+  + w_producao × Opps/dia específico
+
+Score(i,j) = base(i,j) × multiplicador_prioridade(j)</code></pre>
+<p>Os pesos, pontos e multiplicadores estão em PARAMETERS, em analytics.py. São valores fictícios configuráveis, não parâmetros da operação original.</p>
+<p>O termo global fornece informação transversal na ausência de histórico específico, mas não garante aprendizado, exploração ótima ou mérito causal. O termo de produção diferencia perfis dentro de um mesmo grupo.</p>
+<p>Se todas as pessoas forem obrigatoriamente alocadas e o termo global for aditivo e igual em todos os destinos, sua soma será constante e não alterará a atribuição. Nesta demonstração, o multiplicador de prioridade aplicado ao Score completo quebra essa invariância para a rota priorizada. A presença de um peso global, isoladamente, não prova rotação ou exploração: esse comportamento depende da formulação.</p>
+<p>O Score é uma utilidade de decisão definida pelo modelo. Não tem unidade de oportunidades, receita ou probabilidade. Alterar os pesos muda a decisão. Para tornar a comparação exata reprodutível, cada Score é arredondado a seis casas e convertido a inteiro antes da otimização.</p>
+<h3>4. Capacidade e elegibilidade</h3>
+<p>Cada turno é um problema independente neste cenário, pois não há restrições que cruzem turnos.</p>
+<ul>
+<li>Analistas dedicados ocupam exclusivamente a rota reservada.</li>
+<li>As vagas reservadas são preservadas antes do redimensionamento.</li>
+<li>As demais vagas são escalonadas após reservar os mínimos, distribuindo o restante proporcionalmente pelos maiores restos.</li>
+<li>Se o pool não comporta a soma dos mínimos, a configuração é inviável; não há promessa de mínimo impossível.</li>
+<li>Perfis multicanal podem atuar nas campanhas A e B; uma cota inteira distribui esse contingente entre elas.</li>
+<li>Não há atribuição a outro turno ou participação de pessoa fora do pool.</li>
+</ul>
+<p>A demonstração tem capacidade ajustada igual ao pool e exige exatamente uma atribuição por pessoa. Cenários com reserva, excesso de capacidade, deslocamento entre turnos ou múltiplas jornadas exigem outra formulação.</p>
+<h3>5. Formulação binária</h3>
+<p>x(i,j) = 1 quando o analista i ocupa o destino j; caso contrário, 0.</p>
+<pre><code>Maximizar  Σ_i Σ_j Score(i,j) × x(i,j)
+
+Sujeito a:
+Σ_j x(i,j) = 1                         para cada analista elegível
+Σ_i x(i,j) = capacidade(j)             para cada destino
+x(i,j) = 0                            se turno/habilidade/dedicação incompatíveis
+Σ_{i multicanal, j na campanha A} x(i,j) = cota_A
+Σ_{i multicanal, j na campanha B} x(i,j) = cota_B
+x(i,j) ∈ {0,1}</code></pre>
+<p>Trata-se de programação inteira binária. Ter taxas ou médias decimais como coeficientes não introduz variáveis de decisão contínuas nem torna o modelo “misto” por esse motivo.</p>
+<h3>6. Método de resolução e sentido de “ótima”</h3>
+<p>A implementação usa programação dinâmica exata com memoização. O estado contém o próximo analista, vagas restantes por destino e cotas multicanal restantes.</p>
+<p>Cada transição atribui o analista a um destino permitido; estados inviáveis são descartados. A recorrência examina todas as combinações representadas por esses estados e escolhe o maior Score total. A memoização evita recalcular subproblemas iguais.</p>
+<ul>
+<li>“Ótima”: maior Score entre as atribuições viáveis do modelo discretizado.</li>
+<li>“Inviável”: não existe atribuição que cumpra simultaneamente as restrições.</li>
+<li>“Referência viável”: primeira atribuição válida encontrada, sem maximização, sob as mesmas restrições.</li>
+</ul>
+<p>O algoritmo é exato para o cenário pequeno, mas o número de estados cresce com pessoas, rotas e cotas. A referência operacional usa um solver de programação inteira; aqui a troca de motor evita uma dependência nativa, preservando a formulação pública. Não se alega execução de PuLP.</p>
+<p>O delta de Score compara duas soluções fictícias do mesmo problema. Não é uplift de conversão, efeito causal ou ganho financeiro. Uma solução ótima para preferências mal calibradas continua podendo ser inadequada para o negócio.</p>
+<h3>7. Histórico, meta e previsão</h3>
+<p>A interface separa três conceitos:</p>
+<div class="report-table"><table><thead><tr><th>Grandeza</th><th>Origem</th><th>Interpretação</th></tr></thead><tbody><tr><td>Histórico Opps/dia</td><td>Contagens observadas no cenário fictício</td><td>Descrição da janela</td></tr><tr><td>Meta de referência</td><td>Função por faixas e fator de desafio</td><td>Regra de gestão configurável</td></tr><tr><td>Score</td><td>Afinidade híbrida e prioridade</td><td>Objetivo da alocação</td></tr></tbody></table></div>
+<p>As metas usam degraus fictícios e um fator de desafio acima do último degrau. Não entram como oportunidades previstas no Score. O projeto não contém um modelo estatístico de previsão de produção.</p>
+<h3>8. Sankey e rastreabilidade</h3>
+<p>As três etapas são performance global → performance específica na campanha alocada → destino.</p>
+<p>Cada analista contribui uma unidade a cada transição. A largura representa quantidade de analistas, nunca Score, taxa ou oportunidades. A soma dos fluxos de entrada e saída conserva o total em cada etapa.</p>
+<p>O estágio intermediário agrupa pessoas com o mesmo rótulo específico, ainda que oriundo de campanhas diferentes. O Sankey descreve a composição da solução; não mede comparabilidade causal entre campanhas. A tabela preserva o caminho individual e o cálculo do Score.</p>
+<h3>9. Elasticidade e limite de interpretação</h3>
+<p>A demonstração calcula a diferença ponderada de C2O entre Top Half (rótulos globais Q1/Q2) e Bottom Half (Q3/Q4), para cada campanha e no global. Em cada lado, C2O é soma das oportunidades dividida pela soma das conectadas. A diferença é expressa em pontos percentuais; o delta da campanha subtrai a diferença global. Os nomes Top/Bottom Half se referem aos rótulos e não garantem duas metades do mesmo tamanho.</p>
+<p>Essa é a definição observacional de elasticidade adotada neste diagnóstico, não uma elasticidade econômica nem uma estimativa causal. Os perfis foram ajustados na mesma janela das taxas comparadas: a diferença está condicionada à segmentação e não é uma avaliação fora da amostra. Mix e exposição podem explicar parte do resultado. O multiplicador de prioridade é um parâmetro de cenário configurado separadamente, não um efeito aprendido automaticamente dessas diferenças.</p></section>
+<section class="report-band"><div class="report-prose"><h2>Limites, evidências e próximos passos</h2><p>O agrupamento é descritivo e sujeito a ótimos locais. A alocação pública é exata para o pequeno problema discretizado, mas não prova que o Score tenha validade causal ou econômica. O código demonstrativo usa programação dinâmica, não executa PuLP. Os pesos, capacidades e pessoas são fictícios. Na aplicação real, mudanças de elegibilidade, calendário, custo ou regras de escala exigem revisar a formulação antes de reutilizar a solução.</p><p>Antes de uma aplicação real, é necessário conferir a origem e a qualidade dos registros, a população elegível, a estabilidade dos resultados e a correspondência entre o indicador e a decisão pretendida. Uma demonstração reproduzível comprova a execução de suas regras; não comprova o efeito de uma intervenção em outra população.</p></div></section>
+<p id="pdfHelp" class="report-prose" role="status"></p></main></body></html>
