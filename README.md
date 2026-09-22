@@ -8,12 +8,12 @@ O foco está no raciocínio: o que cada indicador mede, como os cálculos se con
 
 | Projeto | Pergunta central | Conteúdo |
 | --- | --- | --- |
-| [Intent do Lead](01-intent-do-lead/index.html) | Até quando insistir e quando tentar novamente? | Eficiência marginal, Sweet Spot, Baixa Eficiência, Zona de Desperdício, janelas de contato e cadências com Score ajustado pelo volume de tentativas. |
-| [Elasticidade e Golden Set](02-elasticidade-e-alocacao/index.html) | Como distribuir a equipe considerando afinidade e restrições? | Estudo de elasticidade como ponto de partida, perfis de K-Means, Score de afinidade, formulação de alocação inteira e Sankey para acompanhar os destinos. |
-| [Simuladores](03-simuladores/index.html) | Como diferentes condições alteram um cenário e sua proximidade de uma meta? | Matriz de correlação, sensibilidade, simulação preditiva e Goal Seeking por busca do cenário histórico fictício mais próximo. |
-| [Monitoramento](04-monitoramento/index.html) | Como distinguir evolução, contribuição e impacto simulado? | Projeto vs. Baseline, Incremento dos Segmentos, Impacto dos Segmentos e Aderência ao Roteiro, com denominadores e hipóteses explícitos. |
-| [Rede de Ideias](05-rede-de-ideias/index.html) | Como transformar hipóteses em propostas de teste? | Relações entre ideias, priorização por impacto e esforço, fundamentação, desenho de teste e critérios de avaliação. |
-| [Performance](06-performance/index.html) | Como comparar produção e eficiência sem confundir suas dimensões? | Perfis multivariados, K-Means, produção por dia, conversão e comparação entre contextos. |
+| [Intent do Lead](intent-do-lead/index.html) | Até quando insistir e quando tentar novamente? | Eficiência marginal, Sweet Spot, Baixa Eficiência, Zona de Desperdício, janelas de contato e cadências com Score ajustado pelo volume de tentativas. |
+| [Elasticidade e Golden Set](elasticidade-e-alocacao/index.html) | Como distribuir a equipe considerando afinidade e restrições? | Estudo de elasticidade como ponto de partida, perfis de K-Means, Score de afinidade, formulação de alocação inteira e Sankey para acompanhar os destinos. |
+| [Simuladores](simuladores/index.html) | Como diferentes condições alteram um cenário e sua proximidade de uma meta? | Matriz de correlação, sensibilidade, simulação preditiva e Goal Seeking por busca do cenário histórico fictício mais próximo. |
+| [Monitoramento](monitoramento/index.html) | Como distinguir evolução, contribuição e impacto simulado? | Projeto vs. Baseline, Incremento dos Segmentos, Impacto dos Segmentos e Aderência ao Roteiro, com denominadores e hipóteses explícitos. |
+| [Rede de Ideias](rede-de-ideias/index.html) | Como transformar hipóteses em propostas de teste? | Relações entre ideias, priorização por impacto e esforço, fundamentação, desenho de teste e critérios de avaliação. |
+| [Performance](performance/index.html) | Como comparar produção e eficiência sem confundir suas dimensões? | Perfis multivariados, K-Means, produção por dia, conversão e comparação entre contextos. |
 
 Os links acima apontam para os arquivos dos relatórios neste repositório. O GitHub pode exibir seu código-fonte em vez da página renderizada. As versões navegáveis podem ser acessadas pelos cards do [portfólio de Denis Tostes](https://denistostes.figma.site/).
 
